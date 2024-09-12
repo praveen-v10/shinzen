@@ -290,7 +290,7 @@ function Footer() {
                   <h1 className="text-[1.3vw] text-white font-T1 font-semibold">
                     Support
                   </h1>
-                  <Link href='/Career'>  
+                  <Link href='/Contact'>  
                   <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-4 hover:underline cursor-pointer">
                     Contact
                   </p>

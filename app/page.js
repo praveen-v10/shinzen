@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Hero from './components/hero'
-
-import Habout from "./components/habout";
-import Hservice from "./components/hservice";
+import React from 'react';
+import Hero from './components/Hero'
+import Habout from "./components/Habout";
+import Hservice from "./components/Hservice";
 import Hwhy from "./components/Hwhy";
-import Review from "./components/review";
+import Review from "./components/Review";
 
 
 export default function Home() {

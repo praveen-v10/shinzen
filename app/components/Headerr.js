@@ -7,7 +7,7 @@ import NavMobile from "./NavMobile";
 import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import Image from "next/image";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 function Headerr() {
@@ -18,9 +18,8 @@ function Headerr() {
   const router = useRouter();
 
   const handleClick = () => {
-    router.push('/Contact'); // Adjust the path if your contact page is at a different route
+    router.push("/Contact"); // Adjust the path if your contact page is at a different route
   };
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,7 +36,7 @@ function Headerr() {
 
   return (
     <header>
-            {/* Desktop */}
+      {/* Desktop */}
       <div
         className={`hidden  2xl:block fixed  h-[10vh] w-full z-50 ${
           isScrolled ? " bg-[#ECFDFF] shadow-lg" : "bg-[#ECFDFF]"
@@ -46,16 +45,16 @@ function Headerr() {
         <div className="container max-w-[85%] mx-auto h-full">
           <div className="flex justify-between items-center h-full">
             <div className="flex items-center">
-            <Link href='/'>
-            <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20294.png?alt=media&token=fc14671e-d575-401e-91d8-90930bb84607"
-                alt="Zenth Tech"
-                width={180}
-                height={0}
-                className="select-none"
-                draggable="false"
-                onContextMenu={(e) => e.preventDefault()}
-              />
+              <Link href="/">
+                <Image
+                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20294.png?alt=media&token=fc14671e-d575-401e-91d8-90930bb84607"
+                  alt="Zenth Tech"
+                  width={180}
+                  height={0}
+                  className="select-none"
+                  draggable="false"
+                  onContextMenu={(e) => e.preventDefault()}
+                />
               </Link>
             </div>
 
@@ -64,17 +63,18 @@ function Headerr() {
             </div>
 
             <div>
-              <button  onClick={handleClick} className="before:ease relative h-12 w-[120px] overflow-hidden border rounded-md border-[#008080] before:absolute before:left-0 before:-ml-2 text-[#008080] before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-[#008080] before:transition-all before:duration-300 hover:text-white  hover:before:-rotate-180">
+              <button
+                onClick={handleClick}
+                className="before:ease relative h-12 w-[120px] overflow-hidden border rounded-md border-[#008080] before:absolute before:left-0 before:-ml-2 text-[#008080] before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-[#008080] before:transition-all before:duration-300 hover:text-white  hover:before:-rotate-180"
+              >
                 <span className="relative z-10">Let&apos;s talk</span>
               </button>
             </div>
           </div>
         </div>
       </div>
-    {/* Desktop */}
+      {/* Desktop */}
 
-
-    
       {/* Laptop */}
       <div
         className={`hidden 2xl:hidden lg:block fixed  h-[10vh] w-full z-50 ${
@@ -84,16 +84,16 @@ function Headerr() {
         <div className=" max-w-[85%] mx-auto h-full">
           <div className="flex justify-between items-center h-full">
             <div className="flex items-center">
-            <Link href='/'>
-              <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20294.png?alt=media&token=fc14671e-d575-401e-91d8-90930bb84607"
-                alt="Zenth Tech"
-                width={150}
-                height={0}
-                className="select-none"
-                draggable="false"
-                onContextMenu={(e) => e.preventDefault()}
-              />
+              <Link href="/">
+                <Image
+                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20294.png?alt=media&token=fc14671e-d575-401e-91d8-90930bb84607"
+                  alt="Zenth Tech"
+                  width={150}
+                  height={0}
+                  className="select-none"
+                  draggable="false"
+                  onContextMenu={(e) => e.preventDefault()}
+                />
               </Link>
             </div>
 
@@ -102,7 +102,10 @@ function Headerr() {
             </div>
 
             <div>
-            <button  onClick={handleClick} className="before:ease relative h-10 w-[120px] overflow-hidden border rounded-md border-[#008080] before:absolute before:left-0 before:-ml-2 text-[#008080] before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-[#008080] before:transition-all before:duration-300 hover:text-white  hover:before:-rotate-180">
+              <button
+                onClick={handleClick}
+                className="before:ease relative h-10 w-[120px] overflow-hidden border rounded-md border-[#008080] before:absolute before:left-0 before:-ml-2 text-[#008080] before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-[#008080] before:transition-all before:duration-300 hover:text-white  hover:before:-rotate-180"
+              >
                 <span className="relative z-10">Let&apos;s talk</span>
               </button>
             </div>
@@ -135,7 +138,7 @@ function Headerr() {
             <div
               className={`${
                 navMobile ? "max-h-72" : "max-h-0"
-              }  absolute top-24 bg-[#7cdde7] w-[180px] h-auto right-0 rounded-lg transition-all overflow-hidden  duration-200 shadow-lg ease-in text-right  pr-4`}
+              }  absolute top-24  bg-teal-700 w-[180px] h-auto right-0 rounded-lg transition-all overflow-hidden  duration-200 shadow-lg ease-in text-right  pr-4`}
             >
               <NavMobile />
             </div>
@@ -161,16 +164,16 @@ function Headerr() {
         <div className="container max-w-[90%] mx-auto h-full">
           <div className="flex justify-between items-center h-full">
             <div className="flex items-center">
-            <Link href='/'>
-            <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20294.png?alt=media&token=fc14671e-d575-401e-91d8-90930bb84607"
-                alt="Zenth Tech"
-                width={130}
-                height={0}
-                className="select-none"
-                draggable="false"
-                onContextMenu={(e) => e.preventDefault()}
-              />
+              <Link href="/">
+                <Image
+                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20294.png?alt=media&token=fc14671e-d575-401e-91d8-90930bb84607"
+                  alt="Zenth Tech"
+                  width={130}
+                  height={0}
+                  className="select-none"
+                  draggable="false"
+                  onContextMenu={(e) => e.preventDefault()}
+                />
               </Link>
             </div>
 

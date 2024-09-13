@@ -89,7 +89,7 @@ function page() {
       <section className="mb-6">
         <h2 className="text-xl font-T1 text-gray-800 font-semibold mb-2">9. Your Rights</h2>
         <p className="text-gray-600 font-T2">
-          You have the right to request access to the personal data we hold about you, request corrections, or ask us to delete it. To exercise these rights, please email us at privacy@zenthtech.com.
+          You have the right to request access to the personal data we hold about you, request corrections, or ask us to delete it. To exercise these rights, please email us at privacy@zenth.in.
         </p>
       </section>
 

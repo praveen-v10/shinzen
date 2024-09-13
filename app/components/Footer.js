@@ -126,26 +126,29 @@ function Footer() {
                 </div>
               </div>
               <div className="w-[30%]">
-                <div className="flex justify-start items-center">
+                <div className="flex justify-end items-center">
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/footer%20logo.png?alt=media&token=8bae70c7-996e-436f-a4f2-eaf0e8414655"
                     alt="Footer"
                     width={0}
                     height={0}
                     sizes="100vw"
-                    style={{ width: "80%", height: "auto" }}
+                    style={{ width: "65%", height: "auto" }}
                     className="select-none"
                     onContextMenu={(e) => e.preventDefault()}
                     draggable="false"
                   />
                 </div>
 
-                <div className="pt-6">
-                  <h1 className="text-[1.3vw] text-white font-T1 font-medium text-center">
+                <div className="pt-6 pr-4 flex justify-end">
+                  <div>
+
+              
+                  <h1 className="text-[1.2vw] text-white font-T1 font-medium">
                     Start Your Journey with Us
                   </h1>
 
-                  <div className="flex items-center justify-center space-x-3 pt-2">
+                  <div className="flex items-center justify-start space-x-3 pt-2">
                     <Link
                       href="https://www.linkedin.com/company/zenth-tech/about/?viewAsMember=true"
                       target="_blank"
@@ -154,8 +157,8 @@ function Footer() {
                       <Image
                         src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/linkedin.png?alt=media&token=2dae6518-3c01-4b15-b404-73b284071b98"
                         alt="Youtube"
-                        width={40}
-                        height={40}
+                        width={30}
+                        height={30}
                         className="select-none"
                         onContextMenu={(e) => e.preventDefault()}
                         draggable="false"
@@ -169,8 +172,8 @@ function Footer() {
                       <Image
                         src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/youtube.png?alt=media&token=195eeb47-bb1d-4ff8-9809-bfbaf0372828"
                         alt="Youtube"
-                        width={40}
-                        height={40}
+                        width={30}
+                        height={30}
                         className="select-none"
                         onContextMenu={(e) => e.preventDefault()}
                         draggable="false"
@@ -185,8 +188,8 @@ function Footer() {
                       <Image
                         src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/instagram.png?alt=media&token=7f6f736c-47ec-42a0-abdd-69fccbb88e4e"
                         alt="Youtube"
-                        width={40}
-                        height={40}
+                        width={30}
+                        height={30}
                         className="select-none"
                         onContextMenu={(e) => e.preventDefault()}
                         draggable="false"
@@ -201,14 +204,15 @@ function Footer() {
                       <Image
                         src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/facebook.png?alt=media&token=1d9adf4f-d3c6-4a36-9b4e-101c2394c23e"
                         alt="Youtube"
-                        width={40}
-                        height={40}
+                        width={30}
+                        height={30}
                         className="select-none"
                         onContextMenu={(e) => e.preventDefault()}
                         draggable="false"
                       />
                     </Link>
                   </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -259,28 +263,28 @@ function Footer() {
                   </Link>
 
                   <Link href="/About">
-                    {" "}
+                    
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       About
                     </p>
                   </Link>
 
                   <Link href="/Service">
-                    {" "}
+                    
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Service
                     </p>
                   </Link>
 
                   <Link href="/Internship">
-                    {" "}
+                    
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Internship
                     </p>
                   </Link>
 
                   <Link href="/Career">
-                    {" "}
+                    
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Career
                     </p>
@@ -352,26 +356,32 @@ function Footer() {
                 </div>
               </div>
               <div className="w-[30%]">
-                <div className="flex justify-start items-center">
+                <div className="">
+
+             
+                <div className="flex justify-end items-center">
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/footer%20logo.png?alt=media&token=8bae70c7-996e-436f-a4f2-eaf0e8414655"
                     alt="Footer"
                     width={0}
                     height={0}
                     sizes="100vw"
-                    style={{ width: "80%", height: "auto" }}
+                    style={{ width: "65%", height: "auto" }}
                     className="select-none"
                     onContextMenu={(e) => e.preventDefault()}
                     draggable="false"
                   />
                 </div>
 
-                <div className="pt-6">
-                  <h1 className="text-[1.3vw] text-white font-T1 font-medium text-center">
+                <div className="pt-6 pr-2 flex justify-end">
+                  <div>
+
+                 
+                  <h1 className="text-[1.2vw] text-white font-T2 font-medium ">
                     Start Your Journey with Us
                   </h1>
 
-                  <div className="flex items-center justify-center space-x-3 pt-2">
+                  <div className="flex items-center justify-start space-x-3 pt-2">
                     <Link
                       href="https://www.linkedin.com/company/zenth-tech/about/?viewAsMember=true"
                       target="_blank"
@@ -380,8 +390,8 @@ function Footer() {
                       <Image
                         src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/linkedin.png?alt=media&token=2dae6518-3c01-4b15-b404-73b284071b98"
                         alt="Youtube"
-                        width={40}
-                        height={40}
+                        width={30}
+                        height={30}
                         className="select-none"
                         onContextMenu={(e) => e.preventDefault()}
                         draggable="false"
@@ -395,8 +405,8 @@ function Footer() {
                       <Image
                         src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/youtube.png?alt=media&token=195eeb47-bb1d-4ff8-9809-bfbaf0372828"
                         alt="Youtube"
-                        width={40}
-                        height={40}
+                        width={30}
+                        height={30}
                         className="select-none"
                         onContextMenu={(e) => e.preventDefault()}
                         draggable="false"
@@ -411,8 +421,8 @@ function Footer() {
                       <Image
                         src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/instagram.png?alt=media&token=7f6f736c-47ec-42a0-abdd-69fccbb88e4e"
                         alt="Youtube"
-                        width={40}
-                        height={40}
+                        width={30}
+                        height={30}
                         className="select-none"
                         onContextMenu={(e) => e.preventDefault()}
                         draggable="false"
@@ -427,14 +437,16 @@ function Footer() {
                       <Image
                         src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/facebook.png?alt=media&token=1d9adf4f-d3c6-4a36-9b4e-101c2394c23e"
                         alt="Youtube"
-                        width={40}
-                        height={40}
+                        width={30}
+                        height={30}
                         className="select-none"
                         onContextMenu={(e) => e.preventDefault()}
                         draggable="false"
                       />
                     </Link>
                   </div>
+                </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -523,42 +535,42 @@ function Footer() {
                   Services
                 </h1>
 
-                <Link href="/Service#mobsoftware">
+                <Link href="/Service#tabsoftware">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-4 hover:underline cursor-pointer">
                     Software
                   </p>
                 </Link>
 
-                <Link href="/Service#mobweb">
-                  {" "}
+                <Link href="/Service#tabweb">
+                  
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Web
                   </p>
                 </Link>
 
-                <Link href="/Service#mobapp">
-                  {" "}
+                <Link href="/Service#tabapp">
+                  
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     App
                   </p>
                 </Link>
 
-                <Link href="/Service#mobui/ux">
-                  {" "}
+                <Link href="/Service#tabui/ux">
+                  
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     UI & UX
                   </p>
                 </Link>
 
-                <Link href="/Service#mobmarketing">
-                  {" "}
+                <Link href="/Service#tabmarketing">
+                  
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Marketing
                   </p>
                 </Link>
 
-                <Link href="/Service#mobvisual">
-                  {" "}
+                <Link href="/Service#tabvisual">
+                  
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Visual Arts
                   </p>
@@ -758,35 +770,35 @@ function Footer() {
                 </Link>
 
                 <Link href="/Service#mobweb">
-                  {" "}
+                  
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Web
                   </p>
                 </Link>
 
                 <Link href="/Service#mobapp">
-                  {" "}
+                  
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     App
                   </p>
                 </Link>
 
                 <Link href="/Service#mobui/ux">
-                  {" "}
+                  
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     UI & UX
                   </p>
                 </Link>
 
                 <Link href="/Service#mobmarketing">
-                  {" "}
+                  
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Marketing
                   </p>
                 </Link>
 
                 <Link href="/Service#mobvisual">
-                  {" "}
+                  
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Visual Arts
                   </p>
@@ -837,8 +849,8 @@ function Footer() {
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/linkedin.png?alt=media&token=2dae6518-3c01-4b15-b404-73b284071b98"
                     alt="Youtube"
-                    width={40}
-                    height={40}
+                    width={30}
+                    height={30}
                     className="select-none"
                     onContextMenu={(e) => e.preventDefault()}
                     draggable="false"
@@ -852,8 +864,8 @@ function Footer() {
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/youtube.png?alt=media&token=195eeb47-bb1d-4ff8-9809-bfbaf0372828"
                     alt="Youtube"
-                    width={40}
-                    height={40}
+                    width={30}
+                    height={30}
                     className="select-none"
                     onContextMenu={(e) => e.preventDefault()}
                     draggable="false"
@@ -868,8 +880,8 @@ function Footer() {
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/instagram.png?alt=media&token=7f6f736c-47ec-42a0-abdd-69fccbb88e4e"
                     alt="Youtube"
-                    width={40}
-                    height={40}
+                    width={30}
+                    height={30}
                     className="select-none"
                     onContextMenu={(e) => e.preventDefault()}
                     draggable="false"
@@ -884,8 +896,8 @@ function Footer() {
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/facebook.png?alt=media&token=1d9adf4f-d3c6-4a36-9b4e-101c2394c23e"
                     alt="Youtube"
-                    width={40}
-                    height={40}
+                    width={30}
+                    height={30}
                     className="select-none"
                     onContextMenu={(e) => e.preventDefault()}
                     draggable="false"

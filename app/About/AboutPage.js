@@ -4,6 +4,7 @@
 import Image from "next/image";
 import React from "react";
 import Footer from "../components/Footer";
+import Link from "next/link";
 
 function AboutPage() {
     return (
@@ -56,9 +57,11 @@ function AboutPage() {
                       to grow, thrive, and stand out in a competitive landscape.
                     </p>
     
+                    <Link href='/Contact'>
                     <button className="bg-[#008080] font-T3 hover:bg-[#ffffff] text-white font-semibold hover:text-black py-2 px-4 mt-6 hover:border hover:border-black  rounded">
                       Contact Us
                     </button>
+                    </Link>
                   </div>
     
                   <div className=" w-[60%] flex justify-evenly">
@@ -355,10 +358,11 @@ function AboutPage() {
                       innovative approach unlocks new opportunities for businesses
                       to grow, thrive, and stand out in a competitive landscape.
                     </p>
-    
+                    <Link href='/Contact'>
                     <button className="bg-[#008080] font-T3 hover:bg-[#ffffff] text-white font-semibold hover:text-black py-2 px-4 mt-6 hover:border hover:border-black  rounded">
                       Contact Us
                     </button>
+                    </Link>
                   </div>
     
                   <div className=" w-[60%] flex justify-evenly">
@@ -612,7 +616,7 @@ function AboutPage() {
           {/* Tab */}
     
           <div className="hidden 2xl:hidden lg:hidden  md:block">
-            <div className="bg-gradient-to-b  from-[#DDF2F3] w-full">
+            <div className="bg-gradient-to-b  from-[#ECFDFF] w-full">
               <div className="flex justify-center space-x-2 pt-40">
                 <h1 className="text-[7vw] font-T1 font-bold text-[#008080]">So</h1>
                 <h1 className="text-[7vw] font-T1 font-bold text-gray-500">Who</h1>
@@ -646,7 +650,7 @@ function AboutPage() {
               </div>
             </div>
     
-            <div className="bg-gradient-to-b from-[#ffffff] to-[#DDF2F3] w-full pb-16">
+            <div className="bg-gradient-to-b from-[#ffffff] to-[#ECFDFF] w-full pb-16">
               <div className="max-w-[90%] mx-auto">
                 <div className=" flex flex-col justify-center items-center pt-24">
                   <p className="font-T2 text-center font-semibold text-[#008080] text-[4vw]">
@@ -661,10 +665,11 @@ function AboutPage() {
                     approach unlocks new opportunities for businesses to grow,
                     thrive, and stand out in a competitive landscape.
                   </p>
-    
+                  <Link href='/Contact'>
                   <button className="bg-[#008080]  text-center font-T3  text-white font-semibold  py-2 px-4 mt-6   rounded">
                     Contact Us
                   </button>
+                  </Link>
                 </div>
     
                 <div></div>
@@ -733,7 +738,7 @@ function AboutPage() {
               </div>
             </div>
     
-            <div className="bg-gradient-to-b  from-[#DDF2F3] pb-10">
+            <div className="bg-gradient-to-b  from-[#ECFDFF] pb-10">
               <div className="max-w-[90%] mx-auto">
                 <div className="flex justify-center pt-16 space-x-2">
                   <h1 className="text-[7vw] font-T1 font-bold text-[#008080]">
@@ -772,7 +777,7 @@ function AboutPage() {
               </div>
             </div>
     
-            <div className="bg-gradient-to-b from-[#ffffff] to-[#DDF2F3] w-full ">
+            <div className="bg-gradient-to-b from-[#ffffff] to-[#ECFDFF] w-full ">
               <div className="max-w-[90%] mx-auto ">
                 <div className="flex justify-center pt-16 space-x-2">
                   <h1 className="text-[7vw] font-T1 font-bold text-gray-500">
@@ -921,26 +926,11 @@ function AboutPage() {
           {/* Mobile */}
     
           <div className="md:hidden ">
-            <div className="bg-gradient-to-b  from-[#DDF2F3] w-full">
-              <div className="flex justify-center space-x-2 pt-40">
-                <h1 className="text-[7vw] font-T1 font-bold text-[#008080]">So</h1>
-                <h1 className="text-[7vw] font-T1 font-bold text-gray-500">Who</h1>
-                <h1 className="text-[7vw] font-T1 font-bold text-[#008080]">We</h1>
-                <h1 className="text-[7vw] font-T1 font-bold text-gray-500">Are</h1>
-              </div>
+            <div className="bg-[#ECFDFF] w-full pb-10">
+        
     
-              <div className="flex justify-center  pt-4">
-                <div className="w-[80%] ">
-                  <p className="font-T2 font-medium text-center text-[3.8vw] text-gray-600">
-                    We believe in the power of digital innovation to transform
-                    businesses. Our passion lies in creating tailored solutions that
-                    not only meet the needs of our clients but also set them apart
-                    in a crowded marketplace.
-                  </p>
-                </div>
-              </div>
     
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center pt-28">
                 <Image
                   src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/zenth%20about.png?alt=media&token=97f2b2e0-4a9f-43da-947a-d05a00dddb89"
                   alt="About"
@@ -953,30 +943,34 @@ function AboutPage() {
                   draggable="false"
                 />
               </div>
-            </div>
-    
-            <div className="bg-gradient-to-b from-[#ffffff] to-[#DDF2F3] w-full pb-16">
-              <div className="max-w-[90%] mx-auto">
-                <div className=" flex flex-col justify-center items-center pt-24">
+<div className="max-w-[90%] mx-auto">
+
+
+              <div className=" flex flex-col justify-center items-center pt-12">
                   <p className="font-T2 text-center font-semibold text-[#008080] text-[4vw]">
                     Know Us Better
                   </p>
                   <h2 className="font-T1 font-bold text-center text-black text-[4.5vw] pt-2">
-                    Discover How We Transform <br />
-                    Ideas into Impact
+                  Turning Ideas into Impact
                   </h2>
-                  <p className="font-T2 font-normal text-center text-gray-600 text-[3.8vw] pt-4 tracking-normal ">
-                    We don&apos;t just follow trends—we create them. Our innovative
-                    approach unlocks new opportunities for businesses to grow,
-                    thrive, and stand out in a competitive landscape.
+                  <p className="font-T2 pl-2 pr-2 font-normal text-center text-gray-600 text-[3.8vw] pt-4 tracking-normal ">
+                  We create smart solutions that help businesses grow and stand out.
                   </p>
-    
+                  <Link href='/Contact'>
                   <button className="bg-[#008080]  text-center font-T3  text-white font-semibold  py-2 px-4 mt-6   rounded">
                     Contact Us
                   </button>
+                  </Link>
                 </div>
+                </div>
+
+            </div>
     
-                <div></div>
+            <div className="bg-white w-full pb-16">
+              <div className="max-w-[90%] mx-auto">
+          
+    
+               
     
                 <div className="flex flex-col justify-center items-center">
                   <div className=" mt-16 h-[250px] w-[70%] flex flex-col justify-center items-center bg-white border-[1px] border-[#F5F5F5] rounded-lg shadow-[6px_6px_12px_0px_rgba(80,78,78,0.3)] hover:translate-y-[-6px] transition-transform duration-500 ease-in-out">
@@ -1042,16 +1036,16 @@ function AboutPage() {
               </div>
             </div>
     
-            <div className="bg-gradient-to-b  from-[#DDF2F3] pb-10">
+            <div className="bg-[#ECFDFF] pb-10">
               <div className="max-w-[90%] mx-auto">
                 <div className="flex justify-center pt-16 space-x-2">
-                  <h1 className="text-[7vw] font-T1 font-bold text-[#008080]">
+                  <h1 className="text-[6vw] font-T1 font-bold text-[#008080]">
                     Our
                   </h1>
-                  <h1 className="text-[7vw] font-T1 font-bold text-gray-500">
+                  <h1 className="text-[6vw] font-T1 font-bold text-gray-500">
                     Journey
                   </h1>
-                  <h1 className="text-[7vw] font-T1 font-bold text-[#008080]">
+                  <h1 className="text-[6vw] font-T1 font-bold text-[#008080]">
                     Unfolds
                   </h1>
                 </div>
@@ -1081,7 +1075,7 @@ function AboutPage() {
               </div>
             </div>
     
-            <div className="bg-gradient-to-b from-[#ffffff] to-[#DDF2F3] w-full ">
+            <div className="bg-white w-full ">
               <div className="max-w-[90%] mx-auto ">
                 <div className="flex justify-center pt-16 space-x-2">
                   <h1 className="text-[7vw] font-T1 font-bold text-gray-500">

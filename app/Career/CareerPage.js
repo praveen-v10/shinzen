@@ -28,7 +28,7 @@ function CareerPage() {
             <h2 className="font-T1 font-semibold text-center  text-[#008080] text-[1.5vw] tracking-wide">
               Your Seat is reserved
             </h2>
-            <p className="font-T2 font-semibold text-black text-center text-[2vw] tracking-wide">
+            <p className="font-T2 font-semibold text-gray-600  text-center text-[2vw] tracking-wide">
               Join our team soon!
             </p>
           </div>
@@ -60,7 +60,7 @@ function CareerPage() {
             <h2 className="font-T1 font-semibold text-center  text-[#008080] text-[1.5vw] tracking-wide">
               Your Seat is reserved
             </h2>
-            <p className="font-T2 font-semibold text-black text-center text-[2vw] tracking-wide">
+            <p className="font-T2 font-semibold text-gray-600  text-center text-[2vw] tracking-wide">
               Join our team soon!
             </p>
           </div>
@@ -91,7 +91,7 @@ function CareerPage() {
             <h2 className="font-T1 font-semibold text-center  text-[#008080] text-[5vw] tracking-wide">
               Your Seat is reserved
             </h2>
-            <p className="font-T2 font-semibold text-black text-center text-[6vw] tracking-wide">
+            <p className="font-T2 font-semibold text-gray-600  text-center text-[6vw] tracking-wide">
               Join our team soon!
             </p>
           </div>
@@ -123,7 +123,7 @@ function CareerPage() {
             <h2 className="font-T1 font-semibold text-center  text-[#008080] text-[5vw] tracking-wide">
               Your Seat is reserved
             </h2>
-            <p className="font-T2 font-semibold text-black text-center text-[6vw] tracking-wide">
+            <p className="font-T2 font-semibold text-gray-600  text-center text-[6vw] tracking-wide">
               Join our team soon!
             </p>
           </div>

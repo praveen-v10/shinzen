@@ -80,7 +80,7 @@ function ServicePage() {
 
         <div
           id="web"
-          className=" bg-[url('https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%20bg%202.png?alt=media&token=75d22550-3334-457f-881b-64a4f1d494c1')] bg-cover bg-center"
+          className=" bg-[url('https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Web%20Solution%20(1).png?alt=media&token=2c6e9462-b551-41ed-bef0-fb8b1950008f')] bg-cover bg-center"
         >
           <div className="max-w-[85%] mx-auto">
             <div className="flex justify-center items-center pt-16">
@@ -285,11 +285,11 @@ function ServicePage() {
           </div>
         </div>
 
-        <div className=" bg-[url('https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%20bg%205.png?alt=media&token=94a3bb7b-9284-4163-b055-3c7be894a67b')] bg-cover bg-center">
+        <div className=" bg-[url('https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/UI%20%26%20UX%20Design.png?alt=media&token=4e2a884b-5328-492d-9a17-e0f3a403710e')] bg-cover bg-center">
           <div className="max-w-[85%] mx-auto">
             <div id="ui/ux" className="flex justify-center items-center pt-20">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%205.png?alt=media&token=eb44bddc-1830-49cc-b490-27e01aac6140"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%20uiux.png?alt=media&token=ad30c2f2-7543-458d-b38b-1c127c3b2f27"
                 alt="Service"
                 width={0}
                 height={0}
@@ -496,7 +496,7 @@ function ServicePage() {
           </div>
         </div>
 
-        <div className=" bg-[url('https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%20bg%202.png?alt=media&token=75d22550-3334-457f-881b-64a4f1d494c1')] bg-cover bg-center">
+        <div className=" bg-[url('https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Web%20Solution%20(1).png?alt=media&token=2c6e9462-b551-41ed-bef0-fb8b1950008f')] bg-cover bg-center">
           <div className="max-w-[85%] mx-auto">
             <div id="lapweb" className="flex justify-center items-center pt-16">
               <Image
@@ -700,14 +700,14 @@ function ServicePage() {
           </div>
         </div>
 
-        <div className=" bg-[url('https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%20bg%205.png?alt=media&token=94a3bb7b-9284-4163-b055-3c7be894a67b')] bg-cover bg-center">
+        <div className=" bg-[url('https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/UI%20%26%20UX%20Design.png?alt=media&token=4e2a884b-5328-492d-9a17-e0f3a403710e')] bg-cover bg-center">
           <div className="max-w-[85%] mx-auto">
             <div
               id="lapui/ux"
               className="flex justify-center items-center pt-20"
             >
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%205.png?alt=media&token=eb44bddc-1830-49cc-b490-27e01aac6140"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%20uiux.png?alt=media&token=ad30c2f2-7543-458d-b38b-1c127c3b2f27"
                 alt="Service"
                 width={0}
                 height={0}
@@ -824,7 +824,7 @@ function ServicePage() {
                 </h2>
                 <p className="text-[1vw] pt-4 text-gray-600 font-T2 text-center font-medium">
                   Offering professional photography that showcases your
-                  products, services, and events in the best light.{" "}
+                  products, services, and events in the best light.
                 </p>
               </div>
 
@@ -834,7 +834,7 @@ function ServicePage() {
                 </h2>
                 <p className="text-[1vw] pt-4 text-gray-600 font-T2 text-center font-medium">
                   Producing high-quality videos that engage viewers and
-                  effectively convey your brand’s story.{" "}
+                  effectively convey your brand&apos;s story.
                 </p>
               </div>
             </div>
@@ -847,7 +847,7 @@ function ServicePage() {
       {/* Tab */}
 
       <div className="hidden 2xl:hidden lg:hidden  md:block">
-        <div id="mobsoftware" className="bg-white">
+        <div id="tabsoftware" className="bg-white">
           <div className="max-w-[90%] mx-auto">
             <div className="flex justify-center items-center pt-28">
               <Image
@@ -912,7 +912,7 @@ function ServicePage() {
           </div>
         </div>
 
-        <div id="mobweb" className="bg-[#E3F4F5] mt-20 pb-20">
+        <div id="tabweb" className="bg-[#E3F4F5] mt-20 pb-20">
           <div className="max-w-[90%] mx-auto">
             <div className="flex justify-center items-center pt-16">
               <Image
@@ -977,7 +977,7 @@ function ServicePage() {
           </div>
         </div>
 
-        <div id="mobapp" className="bg-white pb-20">
+        <div id="tabapp" className="bg-white pb-20">
           <div className="max-w-[90%] mx-auto">
             <div className="flex justify-center items-center pt-16">
               <Image
@@ -1042,7 +1042,7 @@ function ServicePage() {
           </div>
         </div>
 
-        <div id="mobmarketing" className="bg-[#E3F4F5] pb-20">
+        <div id="tabmarketing" className="bg-[#E3F4F5] pb-20">
           <div className="max-w-[90%] mx-auto">
             <div className="flex justify-center items-center pt-16">
               <Image
@@ -1107,11 +1107,11 @@ function ServicePage() {
           </div>
         </div>
 
-        <div id="mobui/ux" className="bg-white pb-20">
+        <div id="tabui/ux" className="bg-white pb-20">
           <div className="max-w-[90%] mx-auto">
             <div className="flex justify-center items-center pt-16">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%205.png?alt=media&token=eb44bddc-1830-49cc-b490-27e01aac6140"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%20uiux.png?alt=media&token=ad30c2f2-7543-458d-b38b-1c127c3b2f27"
                 alt="Home About"
                 width={0}
                 height={0}
@@ -1172,7 +1172,7 @@ function ServicePage() {
           </div>
         </div>
 
-        <div id="mobvisual" className="bg-[#E3F4F5] ">
+        <div id="tabvisual" className="bg-[#E3F4F5] ">
           <div className="max-w-[90%] mx-auto">
             <div className="flex justify-center items-center pt-16">
               <Image
@@ -1510,7 +1510,7 @@ function ServicePage() {
           <div className="max-w-[90%] mx-auto">
             <div className="flex justify-center items-center pt-16">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%205.png?alt=media&token=eb44bddc-1830-49cc-b490-27e01aac6140"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/service%20uiux.png?alt=media&token=ad30c2f2-7543-458d-b38b-1c127c3b2f27"
                 alt="Home About"
                 width={0}
                 height={0}

@@ -2,7 +2,6 @@
 import React from "react";
 import ServicePage from "./ServicePage";
 
-""
 export const metadata = {
   title: "Zenth Tech - Services",
   description: "Explore our wide range of digital services, including web development and app development, designed to help businesses thrive.",

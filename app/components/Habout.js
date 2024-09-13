@@ -5,6 +5,7 @@ import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import Marquee from "react-fast-marquee";
+import Link from "next/link";
 
 function Habout() {
   const { ref: desktopRef, inView: desktopInView } = useInView({
@@ -94,7 +95,7 @@ function Habout() {
 
               <div className="">
                 <p className="text-[1.2vw] font-T2 font-medium text-black">
-                  Innovative digital solution experts.
+                  Innovative digital solution experts
                 </p>
               </div>
 
@@ -125,9 +126,12 @@ function Habout() {
               </div>
 
               <div className="pt-6">
+                <Link href='/About'>
+              
                 <button className="bg-transparent hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Discover More
                 </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -345,7 +349,7 @@ function Habout() {
 
               <div className="">
                 <p className="text-[1.2vw] font-T2 font-medium text-black">
-                  Innovative digital solution experts.
+                  Innovative digital solution experts
                 </p>
               </div>
 
@@ -376,9 +380,11 @@ function Habout() {
               </div>
 
               <div className="pt-6">
+              <Link href='/About'>
                 <button className="bg-transparent hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Discover More
                 </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -545,7 +551,7 @@ function Habout() {
 
               <div className="flex justify-center">
                 <p className="text-[4vw] font-T2 font-medium text-black">
-                  Innovative digital solution experts.
+                  Innovative digital solution experts
                 </p>
               </div>
 
@@ -673,9 +679,11 @@ function Habout() {
                     </div>
                   </div>
                   <div className="">
+                  <Link href='/About'>
                     <button className="bg-transparent hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                       Discover More
                     </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -783,7 +791,7 @@ function Habout() {
 
               <div className="flex justify-center">
                 <p className="text-[4vw] font-T2 font-medium text-black">
-                  Innovative digital solution experts.
+                  Innovative digital solution experts
                 </p>
               </div>
 
@@ -911,9 +919,11 @@ function Habout() {
                     </div>
                   </div>
                   <div className="">
+                  <Link href='/About'>
                     <button className="bg-transparent hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                       Discover More
                     </button>
+                    </Link>
                   </div>
                 </div>
               </div>

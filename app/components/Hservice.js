@@ -133,7 +133,7 @@ function Hservice() {
 
             <div className="relative pb-4  w-[24%] bg-[#DDF2F3] border-[1px] border-[#CDE3E5] rounded-lg shadow-[-30px_26px_22px_0px_rgba(80,78,78,0.2)] flex flex-col items-center cursor-pointer transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/h%20service%205.png?alt=media&token=8e2e71d5-5288-4d57-88f5-72901b4c3eb1"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/hservice%20uiux.png?alt=media&token=11ba20b5-a405-44eb-9eef-af5a3856479f"
                 alt="Home Service"
                 width={0}
                 height={0}
@@ -312,7 +312,7 @@ function Hservice() {
 
             <div className="relative pb-4  w-[24%] bg-[#DDF2F3] border-[1px] border-[#CDE3E5] rounded-lg shadow-[-30px_26px_22px_0px_rgba(80,78,78,0.2)] flex flex-col items-center cursor-pointer transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/h%20service%205.png?alt=media&token=8e2e71d5-5288-4d57-88f5-72901b4c3eb1"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/hservice%20uiux.png?alt=media&token=11ba20b5-a405-44eb-9eef-af5a3856479f"
                 alt="Home Service"
                 width={0}
                 height={0}
@@ -403,7 +403,7 @@ function Hservice() {
                 efficiency and fostering growth.
               </p>
 
-              <Link href="/Service#mobsoftware">
+              <Link href="/Service#tabsoftware">
                 <button className="bg-transparent font-T3 text-[3.5vw] hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -429,7 +429,7 @@ function Hservice() {
                 We design responsive, user-friendly websites that enhance your
                 brand&apos;s online presence effectively.
               </p>
-              <Link href="/Service#mobweb">
+              <Link href="/Service#tabweb">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white text-[3.5vw] py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -455,7 +455,7 @@ function Hservice() {
                 Develop intuitive mobile apps that engage your audience on iOS
                 and Android platforms seamlessly.
               </p>
-              <Link href="/Service#mobapp">
+              <Link href="/Service#tabapp">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white text-[3.5vw] py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -482,7 +482,7 @@ function Hservice() {
                 including SEO and social media campaigns.
               </p>
 
-              <Link href="/Service#mobmarketing">
+              <Link href="/Service#tabmarketing">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[3.5vw]  text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -491,7 +491,7 @@ function Hservice() {
 
             <div className="relative pb-4  w-[80%] bg-[#DDF2F3] border-[1px] border-[#CDE3E5] rounded-lg shadow-[-30px_26px_22px_0px_rgba(80,78,78,0.2)] flex flex-col items-center ">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/h%20service%205.png?alt=media&token=8e2e71d5-5288-4d57-88f5-72901b4c3eb1"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/hservice%20uiux.png?alt=media&token=11ba20b5-a405-44eb-9eef-af5a3856479f"
                 alt="Home Service"
                 width={0}
                 height={0}
@@ -508,7 +508,7 @@ function Hservice() {
                 Design visually appealing, user-friendly interfaces that improve
                 the experience and effectiveness of your products.
               </p>
-              <Link href="/Service#mobui/ux">
+              <Link href="/Service#tabui/ux">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[3.5vw] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -534,7 +534,7 @@ function Hservice() {
                 Capture your brand&apos;s essence with professional photography
                 and videography for events and promotions.
               </p>
-              <Link href="/Service#mobvisual">
+              <Link href="/Service#tabvisual">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[3.5vw] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -671,7 +671,7 @@ function Hservice() {
 
             <div className="relative pb-4  w-[80%] bg-[#DDF2F3] border-[1px] border-[#CDE3E5] rounded-lg shadow-[-30px_26px_22px_0px_rgba(80,78,78,0.2)] flex flex-col items-center ">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/h%20service%205.png?alt=media&token=8e2e71d5-5288-4d57-88f5-72901b4c3eb1"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/hservice%20uiux.png?alt=media&token=11ba20b5-a405-44eb-9eef-af5a3856479f"
                 alt="Home Service"
                 width={0}
                 height={0}

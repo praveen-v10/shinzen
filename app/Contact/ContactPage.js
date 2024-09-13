@@ -13,7 +13,7 @@ function ContactPage() {
           <div className="max-w-[85%] mx-auto">
             <div className="flex justify-center pt-40">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact.png?alt=media&token=286efd16-92e5-4a6d-93ce-a3f359157de9"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%201.png?alt=media&token=8bb0e9f5-4a69-4789-bd8c-7236afe41fc1"
                 alt="Home About"
                 width={0}
                 height={0}
@@ -27,15 +27,15 @@ function ContactPage() {
 
             <div className="flex flex-col justify-center items-center pt-8">
               <h2 className="text-center font-T1 font-semibold text-[1.5vw] text-[#008080]">
-                Let’s Build Something Amazing Together
+                Let&apos;s Build Something Amazing Together
               </h2>
 
               <div className="w-[60%] pt-2">
                 <p className="text-center font-T2 font-medium text-[1.1vw] text-gray-600">
-                  Got an idea or need assistance with your project? We’re here
-                  to help! Let’s collaborate to create custom solutions that
-                  elevate your brand. Whether it’s a quick chat or detailed
-                  discussion, we’re always excited to connect with you.
+                  Got an idea or need assistance with your project? We&apos;re here
+                  to help! Let&apos;s collaborate to create custom solutions that
+                  elevate your brand. Whether it&apos;s a quick chat or detailed
+                  discussion, we&apos;re always excited to connect with you.
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@ function ContactPage() {
                     Sales
                   </h2>
                   <p className="font-T2 pt-2 font-medium text-gray-600 text-[1.2vw]">
-                    sales@zenth.in
+                    info@zenth.in
                   </p>
                 </div>
 
@@ -218,7 +218,7 @@ function ContactPage() {
           <div className="max-w-[85%] mx-auto">
             <div className="flex justify-center pt-40">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact.png?alt=media&token=286efd16-92e5-4a6d-93ce-a3f359157de9"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%201.png?alt=media&token=8bb0e9f5-4a69-4789-bd8c-7236afe41fc1"
                 alt="Home About"
                 width={0}
                 height={0}
@@ -232,15 +232,15 @@ function ContactPage() {
 
             <div className="flex flex-col justify-center items-center pt-8">
               <h2 className="text-center font-T1 font-semibold text-[1.5vw] text-[#008080]">
-                Let’s Build Something Amazing Together
+                Let&apos;s Build Something Amazing Together
               </h2>
 
               <div className="w-[60%] pt-2">
                 <p className="text-center font-T2 font-medium text-[1.1vw] text-gray-600">
-                  Got an idea or need assistance with your project? We’re here
-                  to help! Let’s collaborate to create custom solutions that
-                  elevate your brand. Whether it’s a quick chat or detailed
-                  discussion, we’re always excited to connect with you.
+                  Got an idea or need assistance with your project? We&apos;re here
+                  to help! Let&apos;s collaborate to create custom solutions that
+                  elevate your brand. Whether it&apos;s a quick chat or detailed
+                  discussion, we&apos;re always excited to connect with you.
                 </p>
               </div>
             </div>
@@ -262,7 +262,7 @@ function ContactPage() {
                     Sales
                   </h2>
                   <p className="font-T2 pt-2 font-medium text-gray-600 text-[1.2vw]">
-                    sales@zenth.in
+                    info@zenth.in
                   </p>
                 </div>
 
@@ -423,7 +423,7 @@ function ContactPage() {
           <div className="max-w-[95%] mx-auto">
             <div className="flex justify-center pt-20">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact.png?alt=media&token=286efd16-92e5-4a6d-93ce-a3f359157de9"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%201.png?alt=media&token=8bb0e9f5-4a69-4789-bd8c-7236afe41fc1"
                 alt="Home About"
                 width={0}
                 height={0}
@@ -437,15 +437,15 @@ function ContactPage() {
 
             <div className="flex flex-col justify-center items-center pt-8">
               <h2 className="text-center font-T1 font-semibold text-[4.5vw] text-[#008080]">
-                Let’s Build Something Amazing Together
+                Let&apos;s Build Something Amazing Together
               </h2>
 
               <div className="w-[95%] pt-2">
                 <p className="text-center font-T2 font-medium text-[3.6vw] text-gray-600">
-                  Got an idea or need assistance with your project? We’re here
-                  to help! Let’s collaborate to create custom solutions that
-                  elevate your brand. Whether it’s a quick chat or detailed
-                  discussion, we’re always excited to connect with you.
+                  Got an idea or need assistance with your project? We&apos;re here
+                  to help! Let&apos;s collaborate to create custom solutions that
+                  elevate your brand. Whether it&apos;s a quick chat or detailed
+                  discussion, we&apos;re always excited to connect with you.
                 </p>
               </div>
             </div>
@@ -467,7 +467,7 @@ function ContactPage() {
                     Sales
                   </h2>
                   <p className="font-T2 pt-2 font-medium text-gray-600 text-[3.8vw]">
-                    sales@zenth.in
+                    info@zenth.in
                   </p>
                 </div>
 
@@ -629,9 +629,9 @@ function ContactPage() {
       <div className="md:hidden ">
         <div className="bg-white ">
           <div className="max-w-[95%] mx-auto">
-            <div className="flex justify-center pt-20">
+            <div className="flex justify-center pt-28">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact.png?alt=media&token=286efd16-92e5-4a6d-93ce-a3f359157de9"
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%201.png?alt=media&token=8bb0e9f5-4a69-4789-bd8c-7236afe41fc1"
                 alt="Home About"
                 width={0}
                 height={0}
@@ -645,15 +645,15 @@ function ContactPage() {
 
             <div className="flex flex-col justify-center items-center pt-8">
               <h2 className="text-center font-T1 font-semibold text-[4.5vw] text-[#008080]">
-                Let’s Build Something Amazing Together
+                Let&apos;s Build Something Amazing Together
               </h2>
 
               <div className="w-[95%] pt-2">
                 <p className="text-center font-T2 font-medium text-[3.6vw] text-gray-600">
-                  Got an idea or need assistance with your project? We’re here
-                  to help! Let’s collaborate to create custom solutions that
-                  elevate your brand. Whether it’s a quick chat or detailed
-                  discussion, we’re always excited to connect with you.
+                  Got an idea or need assistance with your project? We&apos;re here
+                  to help! Let&apos;s collaborate to create custom solutions that
+                  elevate your brand. Whether it&apos;s a quick chat or detailed
+                  discussion, we&apos;re always excited to connect with you.
                 </p>
               </div>
             </div>
@@ -675,7 +675,7 @@ function ContactPage() {
                     Sales
                   </h2>
                   <p className="font-T2 pt-2 font-medium text-gray-600 text-[3.8vw]">
-                    sales@zenth.in
+                    info@zenth.in
                   </p>
                 </div>
 

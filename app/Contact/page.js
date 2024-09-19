@@ -3,16 +3,15 @@ import React from "react";
 import ContactPage from "./ContactPage";
 
 export const metadata = {
-  title: "Zenth Tech - Contact",
-  description: "Get in touch with Zenth Tech for inquiries, support, or more information about our services.",
-  keywords: ["Contact Us", "Customer Support", "Inquiries", "Get in Touch", "Zenth Tech Contact", "Tech Support"],
+  title: "Contact Zenth Tech | Shinever Infotech Pvt Ltd",
+  description: "Get in touch with Zenth Tech and Shinever Infotech for custom software development, web design, and digital marketing services.",
+  keywords: ["Contact Zenth Tech", "Shinever Infotech Contact", "Tech Support", "IT Consulting", "Digital Marketing Queries", "Software Development Inquiries"],
   openGraph: {
-    title: "Zenth Tech - Contact",
-    description: "Reach out to us for information about our services or support.",
+    title: "Contact Zenth Tech | Shinever Infotech Pvt Ltd",
+    description: "Reach out to Zenth Tech and Shinever Infotech for your custom software and digital solutions.",
     url: "https://www.zenth.in/Contact",
   },
 };
-
 
 
 function page() {

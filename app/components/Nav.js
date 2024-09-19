@@ -36,7 +36,7 @@ function Nav() {
         <li key={index}>
           <Link
             href={item.href}
-            className={`text-gray-700 font-semibold font-T1  hover:text-teal-700 ${
+            className={`text-gray-700 select-none font-semibold font-T1  hover:text-teal-700 ${
               pathname === item.href ? "text-teal-700" : ""
             }`}
           >

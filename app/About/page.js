@@ -4,12 +4,12 @@ import React from "react";
 import AboutPage from "./AboutPage";
 
 export const metadata = {
-  title: "Zenth Tech - About Us",
-  description: "Learn more about Zenth Tech and our commitment to innovation in technology.",
-  keywords: ["Company Mission", "Technology Innovators", "Company Values", "Tech Company Overview", "Digital Transformation Leaders", "About Zenth Tech"],
+  title: "About Zenth Tech | Shinever Infotech Pvt Ltd",
+  description: "Learn more about Zenth Tech and Shinever Infotech, your trusted partner in IT and digital solutions. We specialize in custom software, UI/UX design, and digital transformation.",
+  keywords: ["Zenth Tech", "Shinever Infotech", "About Zenth Tech", "Custom Software", "IT Services", "Digital Transformation", "Web Development", "Mobile Apps"],
   openGraph: {
-    title: "Zenth Tech - About Us",
-    description: "Discover who we are and how we drive digital transformation in the tech industry.",
+    title: "About Zenth Tech | Shinever Infotech Pvt Ltd",
+    description: "Zenth Tech, powered by Shinever Infotech, specializes in custom software, digital marketing, and IT solutions.",
     url: "https://www.zenth.in/About",
   },
 };

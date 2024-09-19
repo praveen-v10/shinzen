@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect ,useRef} from "react";
+
 import Nav from "./Nav";
 import NavMobile from "./NavMobile";
 import { CiMenuBurger } from "react-icons/ci";
@@ -11,7 +12,25 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 function Headerr() {
+  const navRef = useRef(null); // Ref for the nav menu
   const [navMobile, setNavMobile] = useState(false);
+
+  // Close the mobile menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        setNavMobile(false); // Close the menu
+      }
+    };
+
+    // Add event listener for clicks
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Clean up event listener
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [navRef]);
 
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -157,43 +176,44 @@ function Headerr() {
 
       {/* Mobile */}
       <div
-        className={`md:hidden fixed  h-[8vh] w-full z-50 ${
-          isScrolled ? " bg-[#ECFDFF] shadow-lg" : "bg-[#ECFDFF]"
-        }`}
-      >
-        <div className="container max-w-[90%] mx-auto h-full">
-          <div className="flex justify-between items-center h-full">
-            <div className="flex items-center">
-              <Link href="/">
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20294.png?alt=media&token=fc14671e-d575-401e-91d8-90930bb84607"
-                  alt="Zenth Tech"
-                  width={130}
-                  height={0}
-                  className="select-none"
-                  draggable="false"
-                  onContextMenu={(e) => e.preventDefault()}
-                />
-              </Link>
-            </div>
+      className={`md:hidden fixed h-[8vh] w-full z-50 ${
+        isScrolled ? "bg-[#ECFDFF] shadow-lg" : "bg-[#ECFDFF]"
+      }`}
+    >
+      <div className="container max-w-[90%] mx-auto h-full">
+        <div className="flex justify-between items-center h-full">
+          <div className="flex items-center">
+            <Link href="/">
+              <Image
+                src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20294.png?alt=media&token=fc14671e-d575-401e-91d8-90930bb84607"
+                alt="Zenth Tech"
+                width={130}
+                height={0}
+                className="select-none"
+                draggable="false"
+                onContextMenu={(e) => e.preventDefault()}
+              />
+            </Link>
+          </div>
 
-            <div
-              className={`${
-                navMobile ? "max-h-72" : "max-h-0"
-              }  absolute top-[70px] bg-teal-700 w-[150px]  right-0 rounded-lg transition-all overflow-hidden  duration-200 shadow-lg ease-in text-right  pr-4`}
-            >
-              <NavMobile />
-            </div>
+          <div
+            ref={navRef} // Attach the ref here
+            className={`${
+              navMobile ? "max-h-72" : "max-h-0"
+            } absolute top-[70px] bg-teal-700 w-[150px] right-0 rounded-lg transition-all overflow-hidden duration-200 shadow-lg ease-in text-right pr-4`}
+          >
+            <NavMobile />
+          </div>
 
-            <div
-              onClick={() => setNavMobile(!navMobile)}
-              className=" text-2xl  text-primary cursor-pointer"
-            >
-              {navMobile ? <IoMdClose /> : <CiMenuBurger />}
-            </div>
+          <div
+            onClick={() => setNavMobile(!navMobile)}
+            className="text-2xl text-primary cursor-pointer"
+          >
+            {navMobile ? <IoMdClose /> : <CiMenuBurger />}
           </div>
         </div>
       </div>
+    </div>
 
       {/* Mobile */}
     </header>

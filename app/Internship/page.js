@@ -4,12 +4,12 @@ import InternshipPage from "./InternshipPage";
 
 
 export const metadata = {
-  title: "Zenth Tech - Internship Program",
-  description: "Kickstart your career with Zenth Tech's internship opportunities and gain hands-on experience in the tech industry.",
-  keywords: ["Internship Opportunities", "Tech Internships", "Start Your Career", "Zenth Tech Internships", "Technology Internship Program", "Hands-On Experience"],
+  title: "Internship Opportunities at Zenth Tech | Shinever Infotech Pvt Ltd",
+  description: "Kickstart your career with internship opportunities at Zenth Tech. Shinever Infotech offers hands-on experience in software development, web design, and digital marketing.",
+  keywords: ["Internships at Zenth Tech", "Shinever Infotech Internship", "Tech Internships", "Software Development Internship", "Web Design Internship", "Digital Marketing Internship"],
   openGraph: {
-    title: "Zenth Tech - Internship Program",
-    description: "Join our team as an intern and gain valuable experience in the technology sector.",
+    title: "Internships at Zenth Tech | Shinever Infotech Pvt Ltd",
+    description: "Join Zenth Tech's internship program and get real-world experience in the IT industry.",
     url: "https://www.zenth.in/Internship",
   },
 };

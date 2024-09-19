@@ -4,12 +4,12 @@ import CareerPage from "./CareerPage";
 
 
 export const metadata = {
-  title: "Zenth Tech - Career",
-  description: "Explore exciting career opportunities and job openings at Zenth Tech.",
-  keywords: ["Tech Careers", "Job Opportunities", "Technology Jobs", "Join Our Team", "Career at Zenth Tech", "Work with Us"],
+  title: "Careers at Zenth Tech | Shinever Infotech Pvt Ltd",
+  description: "Join Zenth Tech and Shinever Infotech for exciting career opportunities in technology, software development, digital marketing, and more.",
+  keywords: ["Careers at Zenth Tech", "Shinever Infotech Jobs", "Tech Careers", "IT Jobs", "Software Development Jobs", "Digital Marketing Careers"],
   openGraph: {
-    title: "Zenth Tech - Career",
-    description: "We are always looking for talented individuals to join our dynamic team.",
+    title: "Careers at Zenth Tech | Shinever Infotech Pvt Ltd",
+    description: "Explore job openings at Zenth Tech, where we nurture talent and innovation.",
     url: "https://www.zenth.in/Career",
   },
 };

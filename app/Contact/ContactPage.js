@@ -1,10 +1,19 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { useState } from "react";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import Accordion from "../components/Accordion";
 
 function ContactPage() {
+  const [openIndex, setOpenIndex] = useState(null); // Track the currently open accordion
+
+  const handleToggle = (index) => {
+    // Toggle the accordion if the same index is clicked, else open the clicked one
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
   return (
     <div>
       {/* Desktop */}
@@ -32,10 +41,11 @@ function ContactPage() {
 
               <div className="w-[60%] pt-2">
                 <p className="text-center font-T2 font-medium text-[1.1vw] text-gray-600">
-                  Got an idea or need assistance with your project? We&apos;re here
-                  to help! Let&apos;s collaborate to create custom solutions that
-                  elevate your brand. Whether it&apos;s a quick chat or detailed
-                  discussion, we&apos;re always excited to connect with you.
+                  Got an idea or need assistance with your project? We&apos;re
+                  here to help! Let&apos;s collaborate to create custom
+                  solutions that elevate your brand. Whether it&apos;s a quick
+                  chat or detailed discussion, we&apos;re always excited to
+                  connect with you.
                 </p>
               </div>
             </div>
@@ -125,84 +135,45 @@ function ContactPage() {
 
         <div className="bg-white mt-20">
           <div className="max-w-[85%] mx-auto">
-            <div className="flex justify-center space-x-4">
-              <h1 className="text-[3vw] font-T1 font-bold text-[#008080]">
-                Stay
-              </h1>
-              <h1 className="text-[3vw] font-T1 font-bold text-gray-500">
-                Connected
-              </h1>
-            </div>
             <div className="flex justify-center">
-              <p className="text-[1.2vw] font-T2 font-medium text-black">
-                Follow us on social media for updates, news, and more.
-              </p>
+              <h1 className="text-[3vw] font-T1 text-center font-bold text-gray-600">
+                Frequently Asked Questions
+              </h1>
             </div>
 
-            <div className="flex justify-evenly pt-20">
-              <Link
-                href="https://www.linkedin.com/company/zenth-tech/about/?viewAsMember=true"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20li.png?alt=media&token=ed79a13c-89dd-456f-950b-5bf99b624189"
-                  alt="Linked in"
-                  width={180} // Set the width directly
-                  height={180} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
+            <div className="flex flex-col items-center justify-center pt-20">
+              <Accordion
+                title="What services do you offer?"
+                content="We provide a wide range of digital services, including software development, web design, UI/UX, mobile apps, and digital marketing. Contact our sales team to find the best solution for your business."
+                isOpen={openIndex === 0} // Check if this accordion is open
+                onToggle={() => handleToggle(0)} // Toggle when clicked
+              />
+              <Accordion
+                title="How do I get started with a project?"
+                content="Simply reach out to our sales team with your project details, and we'll help you take the next steps toward success."
+                isOpen={openIndex === 1} // Check if this accordion is open
+                onToggle={() => handleToggle(1)} // Toggle when clicked
+              />
+              <Accordion
+                title="What is the typical project timeline?"
+                content="While project timelines depend on the scope and complexity, we ensure timely delivery without compromising quality."
+                isOpen={openIndex === 2} // Check if this accordion is open
+                onToggle={() => handleToggle(2)} // Toggle when clicked
+              />
 
-              <Link
-                href="https://www.youtube.com/@Zenthtech_Official"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20yt.png?alt=media&token=61dcce50-979e-4cd2-b7dc-b5d08555b8d9"
-                  alt="Youtube"
-                  width={180} // Set the width directly
-                  height={180} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
+              <Accordion
+                title="Can you customize solutions based on my needs?"
+                content="Absolutely. We create tailored strategies to meet your unique business objectives, ensuring maximum impact and growth."
+                isOpen={openIndex === 3} // Check if this accordion is open
+                onToggle={() => handleToggle(3)} // Toggle when clicked
+              />
 
-              <Link
-                href="https://www.instagram.com/zenth_tech/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20in.png?alt=media&token=12f8c245-a1e5-4e8a-86f7-04c678e52ea9"
-                  alt="Instagram"
-                  width={180} // Set the width directly
-                  height={180} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
-
-              <Link
-                href="https://www.facebook.com/profile.php?id=61563341759261"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20fb.png?alt=media&token=d503b01c-8ae4-4781-b011-0b3bfa5c888e"
-                  alt="Facebook"
-                  width={180} // Set the width directly
-                  height={180} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
+              <Accordion
+                title="How can I contact you for support?"
+                content="Our team is available 24/7 to assist you. Feel free to reach us via email, phone, or through our contact form."
+                isOpen={openIndex === 4} // Check if this accordion is open
+                onToggle={() => handleToggle(4)} // Toggle when clicked
+              />
             </div>
           </div>
 
@@ -237,10 +208,11 @@ function ContactPage() {
 
               <div className="w-[60%] pt-2">
                 <p className="text-center font-T2 font-medium text-[1.1vw] text-gray-600">
-                  Got an idea or need assistance with your project? We&apos;re here
-                  to help! Let&apos;s collaborate to create custom solutions that
-                  elevate your brand. Whether it&apos;s a quick chat or detailed
-                  discussion, we&apos;re always excited to connect with you.
+                  Got an idea or need assistance with your project? We&apos;re
+                  here to help! Let&apos;s collaborate to create custom
+                  solutions that elevate your brand. Whether it&apos;s a quick
+                  chat or detailed discussion, we&apos;re always excited to
+                  connect with you.
                 </p>
               </div>
             </div>
@@ -330,84 +302,45 @@ function ContactPage() {
 
         <div className="bg-white mt-20">
           <div className="max-w-[85%] mx-auto">
-            <div className="flex justify-center space-x-4">
-              <h1 className="text-[3vw] font-T1 font-bold text-[#008080]">
-                Stay
-              </h1>
-              <h1 className="text-[3vw] font-T1 font-bold text-gray-500">
-                Connected
-              </h1>
-            </div>
             <div className="flex justify-center">
-              <p className="text-[1.2vw] font-T2 font-medium text-black">
-                Follow us on social media for updates, news, and more.
-              </p>
+              <h1 className="text-[3vw] font-T1 font-bold text-gray-600">
+                Frequently Asked Questions
+              </h1>
             </div>
 
-            <div className="flex justify-evenly pt-20">
-              <Link
-                href="https://www.linkedin.com/company/zenth-tech/about/?viewAsMember=true"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20li.png?alt=media&token=ed79a13c-89dd-456f-950b-5bf99b624189"
-                  alt="Linked in"
-                  width={180} // Set the width directly
-                  height={180} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
+            <div className="flex flex-col items-center justify-center pt-20">
+              <Accordion
+                title="What services do you offer?"
+                content="We provide a wide range of digital services, including software development, web design, UI/UX, mobile apps, and digital marketing. Contact our sales team to find the best solution for your business."
+                isOpen={openIndex === 0} // Check if this accordion is open
+                onToggle={() => handleToggle(0)} // Toggle when clicked
+              />
+              <Accordion
+                title="How do I get started with a project?"
+                content="Simply reach out to our sales team with your project details, and we'll help you take the next steps toward success."
+                isOpen={openIndex === 1} // Check if this accordion is open
+                onToggle={() => handleToggle(1)} // Toggle when clicked
+              />
+              <Accordion
+                title="What is the typical project timeline?"
+                content="While project timelines depend on the scope and complexity, we ensure timely delivery without compromising quality."
+                isOpen={openIndex === 2} // Check if this accordion is open
+                onToggle={() => handleToggle(2)} // Toggle when clicked
+              />
 
-              <Link
-                href="https://www.youtube.com/@Zenthtech_Official"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20yt.png?alt=media&token=61dcce50-979e-4cd2-b7dc-b5d08555b8d9"
-                  alt="Youtube"
-                  width={180} // Set the width directly
-                  height={180} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
+              <Accordion
+                title="Can you customize solutions based on my needs?"
+                content="Absolutely. We create tailored strategies to meet your unique business objectives, ensuring maximum impact and growth."
+                isOpen={openIndex === 3} // Check if this accordion is open
+                onToggle={() => handleToggle(3)} // Toggle when clicked
+              />
 
-              <Link
-                href="https://www.instagram.com/zenth_tech/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20in.png?alt=media&token=12f8c245-a1e5-4e8a-86f7-04c678e52ea9"
-                  alt="Instagram"
-                  width={180} // Set the width directly
-                  height={180} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
-
-              <Link
-                href="https://www.facebook.com/profile.php?id=61563341759261"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20fb.png?alt=media&token=d503b01c-8ae4-4781-b011-0b3bfa5c888e"
-                  alt="Facebook"
-                  width={180} // Set the width directly
-                  height={180} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
+              <Accordion
+                title="How can I contact you for support?"
+                content="Our team is available 24/7 to assist you. Feel free to reach us via email, phone, or through our contact form."
+                isOpen={openIndex === 4} // Check if this accordion is open
+                onToggle={() => handleToggle(4)} // Toggle when clicked
+              />
             </div>
           </div>
 
@@ -421,7 +354,7 @@ function ContactPage() {
       <div className="hidden 2xl:hidden lg:hidden  md:block">
         <div className="bg-white ">
           <div className="max-w-[95%] mx-auto">
-            <div className="flex justify-center pt-20">
+            <div className="flex justify-center pt-28">
               <Image
                 src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%201.png?alt=media&token=8bb0e9f5-4a69-4789-bd8c-7236afe41fc1"
                 alt="Home About"
@@ -442,10 +375,11 @@ function ContactPage() {
 
               <div className="w-[95%] pt-2">
                 <p className="text-center font-T2 font-medium text-[3.6vw] text-gray-600">
-                  Got an idea or need assistance with your project? We&apos;re here
-                  to help! Let&apos;s collaborate to create custom solutions that
-                  elevate your brand. Whether it&apos;s a quick chat or detailed
-                  discussion, we&apos;re always excited to connect with you.
+                  Got an idea or need assistance with your project? We&apos;re
+                  here to help! Let&apos;s collaborate to create custom
+                  solutions that elevate your brand. Whether it&apos;s a quick
+                  chat or detailed discussion, we&apos;re always excited to
+                  connect with you.
                 </p>
               </div>
             </div>
@@ -535,86 +469,45 @@ function ContactPage() {
 
         <div className="bg-white mt-20">
           <div className="max-w-[90%] mx-auto">
-            <div className="flex justify-center space-x-4">
-              <h1 className="text-[8vw] font-T1 font-bold text-[#008080]">
-                Stay
-              </h1>
-              <h1 className="text-[8vw] font-T1 font-bold text-gray-500">
-                Connected
+            <div className="flex justify-center ">
+              <h1 className="text-[8vw] text-center font-T1 font-bold text-gray-600">
+                Frequently Asked Questions
               </h1>
             </div>
-            <div className="flex justify-center">
-              <p className="text-[3.8vw] pl-6 pr-6 text-center font-T2 font-medium text-black">
-                Follow us on social media for updates, news, and more.
-              </p>
-            </div>
 
-            <div className="flex  justify-evenly  pt-10">
-              <Link
-                href="https://www.linkedin.com/company/zenth-tech/about/?viewAsMember=true"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20li.png?alt=media&token=ed79a13c-89dd-456f-950b-5bf99b624189"
-                  alt="Linked in"
-                  width={130} // Set the width directly
-                  height={130} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
+            <div className="flex flex-col items-center justify-center pt-20">
+              <Accordion
+                title="What services do you offer?"
+                content="We provide a wide range of digital services, including software development, web design, UI/UX, mobile apps, and digital marketing. Contact our sales team to find the best solution for your business."
+                isOpen={openIndex === 0} // Check if this accordion is open
+                onToggle={() => handleToggle(0)} // Toggle when clicked
+              />
+              <Accordion
+                title="How do I get started with a project?"
+                content="Simply reach out to our sales team with your project details, and we'll help you take the next steps toward success."
+                isOpen={openIndex === 1} // Check if this accordion is open
+                onToggle={() => handleToggle(1)} // Toggle when clicked
+              />
+              <Accordion
+                title="What is the typical project timeline?"
+                content="While project timelines depend on the scope and complexity, we ensure timely delivery without compromising quality."
+                isOpen={openIndex === 2} // Check if this accordion is open
+                onToggle={() => handleToggle(2)} // Toggle when clicked
+              />
 
-              <Link
-                href="https://www.youtube.com/@Zenthtech_Official"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20yt.png?alt=media&token=61dcce50-979e-4cd2-b7dc-b5d08555b8d9"
-                  alt="Youtube"
-                  width={130} // Set the width directly
-                  height={130} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
-            </div>
+              <Accordion
+                title="Can you customize solutions based on my needs?"
+                content="Absolutely. We create tailored strategies to meet your unique business objectives, ensuring maximum impact and growth."
+                isOpen={openIndex === 3} // Check if this accordion is open
+                onToggle={() => handleToggle(3)} // Toggle when clicked
+              />
 
-            <div className="flex  justify-evenly  pt-10">
-              <Link
-                href="https://www.instagram.com/zenth_tech/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20in.png?alt=media&token=12f8c245-a1e5-4e8a-86f7-04c678e52ea9"
-                  alt="Instagram"
-                  width={130} // Set the width directly
-                  height={130} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
-
-              <Link
-                href="https://www.facebook.com/profile.php?id=61563341759261"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20fb.png?alt=media&token=d503b01c-8ae4-4781-b011-0b3bfa5c888e"
-                  alt="Facebook"
-                  width={130} // Set the width directly
-                  height={130} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
+              <Accordion
+                title="How can I contact you for support?"
+                content="Our team is available 24/7 to assist you. Feel free to reach us via email, phone, or through our contact form."
+                isOpen={openIndex === 4} // Check if this accordion is open
+                onToggle={() => handleToggle(4)} // Toggle when clicked
+              />
             </div>
           </div>
 
@@ -650,10 +543,11 @@ function ContactPage() {
 
               <div className="w-[95%] pt-2">
                 <p className="text-center font-T2 font-medium text-[3.6vw] text-gray-600">
-                  Got an idea or need assistance with your project? We&apos;re here
-                  to help! Let&apos;s collaborate to create custom solutions that
-                  elevate your brand. Whether it&apos;s a quick chat or detailed
-                  discussion, we&apos;re always excited to connect with you.
+                  Got an idea or need assistance with your project? We&apos;re
+                  here to help! Let&apos;s collaborate to create custom
+                  solutions that elevate your brand. Whether it&apos;s a quick
+                  chat or detailed discussion, we&apos;re always excited to
+                  connect with you.
                 </p>
               </div>
             </div>
@@ -743,86 +637,45 @@ function ContactPage() {
 
         <div className="bg-white mt-20">
           <div className="max-w-[90%] mx-auto">
-            <div className="flex justify-center space-x-4">
-              <h1 className="text-[8vw] font-T1 font-bold text-[#008080]">
-                Stay
-              </h1>
-              <h1 className="text-[8vw] font-T1 font-bold text-gray-500">
-                Connected
+            <div className="flex justify-center ">
+              <h1 className="text-[8vw] text-center font-T1 font-bold text-gray-600">
+                Frequently Asked Questions
               </h1>
             </div>
-            <div className="flex justify-center">
-              <p className="text-[3.8vw] pl-6 pr-6 text-center font-T2 font-medium text-black">
-                Follow us on social media for updates, news, and more.
-              </p>
-            </div>
 
-            <div className="flex  justify-evenly  pt-10">
-              <Link
-                href="https://www.linkedin.com/company/zenth-tech/about/?viewAsMember=true"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20li.png?alt=media&token=ed79a13c-89dd-456f-950b-5bf99b624189"
-                  alt="Linked in"
-                  width={130} // Set the width directly
-                  height={130} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
+            <div className="flex flex-col items-center justify-center pt-20">
+              <Accordion
+                title="What services do you offer?"
+                content="We provide a wide range of digital services, including software development, web design, UI/UX, mobile apps, and digital marketing. Contact our sales team to find the best solution for your business."
+                isOpen={openIndex === 0} // Check if this accordion is open
+                onToggle={() => handleToggle(0)} // Toggle when clicked
+              />
+              <Accordion
+                title="How do I get started with a project?"
+                content="Simply reach out to our sales team with your project details, and we'll help you take the next steps toward success."
+                isOpen={openIndex === 1} // Check if this accordion is open
+                onToggle={() => handleToggle(1)} // Toggle when clicked
+              />
+              <Accordion
+                title="What is the typical project timeline?"
+                content="While project timelines depend on the scope and complexity, we ensure timely delivery without compromising quality."
+                isOpen={openIndex === 2} // Check if this accordion is open
+                onToggle={() => handleToggle(2)} // Toggle when clicked
+              />
 
-              <Link
-                href="https://www.youtube.com/@Zenthtech_Official"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20yt.png?alt=media&token=61dcce50-979e-4cd2-b7dc-b5d08555b8d9"
-                  alt="Youtube"
-                  width={130} // Set the width directly
-                  height={130} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
-            </div>
+              <Accordion
+                title="Can you customize solutions based on my needs?"
+                content="Absolutely. We create tailored strategies to meet your unique business objectives, ensuring maximum impact and growth."
+                isOpen={openIndex === 3} // Check if this accordion is open
+                onToggle={() => handleToggle(3)} // Toggle when clicked
+              />
 
-            <div className="flex  justify-evenly  pt-10">
-              <Link
-                href="https://www.instagram.com/zenth_tech/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20in.png?alt=media&token=12f8c245-a1e5-4e8a-86f7-04c678e52ea9"
-                  alt="Instagram"
-                  width={130} // Set the width directly
-                  height={130} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
-
-              <Link
-                href="https://www.facebook.com/profile.php?id=61563341759261"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20fb.png?alt=media&token=d503b01c-8ae4-4781-b011-0b3bfa5c888e"
-                  alt="Facebook"
-                  width={130} // Set the width directly
-                  height={130} // Set the height directly
-                  className="select-none cursor-pointer hover:translate-y-[-6px] transition-transform duration-500 ease-in-out"
-                  onContextMenu={(e) => e.preventDefault()}
-                  draggable="false"
-                />
-              </Link>
+              <Accordion
+                title="How can I contact you for support?"
+                content="Our team is available 24/7 to assist you. Feel free to reach us via email, phone, or through our contact form."
+                isOpen={openIndex === 4} // Check if this accordion is open
+                onToggle={() => handleToggle(4)} // Toggle when clicked
+              />
             </div>
           </div>
 
@@ -835,4 +688,4 @@ function ContactPage() {
   );
 }
 
-export default ContactPage
+export default ContactPage;

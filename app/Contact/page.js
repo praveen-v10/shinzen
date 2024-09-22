@@ -10,6 +10,14 @@ export const metadata = {
     title: "Contact Zenth Tech | Shinever Infotech Pvt Ltd",
     description: "Reach out to Zenth Tech and Shinever Infotech for your custom software and digital solutions.",
     url: "https://www.zenth.in/Contact",
+    images: [
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20136%20(2).png?alt=media&token=a7d78059-53af-44d9-845f-738804651bec",
+        width: 1200,
+        height: 630,
+        alt: "Zenth Tech Logo",
+      },
+    ],
   },
 };
 

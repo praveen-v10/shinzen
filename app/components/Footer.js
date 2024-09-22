@@ -107,18 +107,18 @@ function Footer() {
                       Contact
                     </p>
                   </Link>
-                  <Link href="/Privacy">
+                  <Link href="/Privacy-Policy">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Privacy Policy
                     </p>
                   </Link>
 
-                  <Link href="/Terms">
+                  <Link href="/Terms-and-Conditions">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Terms & Conditions
                     </p>
                   </Link>
-                  <Link href="/Refund">
+                  <Link href="/Refund-Policy">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Refund Policy
                     </p>
@@ -338,17 +338,17 @@ function Footer() {
                       Contact
                     </p>
                   </Link>
-                  <Link href="/Privacy">
+                  <Link href="/Privacy-Policy">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Privacy Policy
                     </p>
                   </Link>
-                  <Link href="/Terms">
+                  <Link href="/Terms-and-Conditions">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Terms & Conditions
                     </p>
                   </Link>
-                  <Link href="/Refund">
+                  <Link href="/Refund-Policy">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Refund Policy
                     </p>
@@ -587,18 +587,18 @@ function Footer() {
                     Contact
                   </p>
                 </Link>
-                <Link href="/Privacy">
+                <Link href="/Privacy-Policy">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Privacy Policy
                   </p>
                 </Link>
-                <Link href="/Refund">
+                <Link href="/Refund-Policy">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Refund Policy
                   </p>
                 </Link>
 
-                <Link href="/Terms">
+                <Link href="/Terms-and-Conditions">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Terms & <br />
                     Conditions
@@ -815,18 +815,18 @@ function Footer() {
                     Contact
                   </p>
                 </Link>
-                <Link href="/Privacy">
+                <Link href="/Privacy-Policy">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Privacy Policy
                   </p>
                 </Link>
-                <Link href="/Refund">
+                <Link href="/Refund-Policy">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Refund Policy
                   </p>
                 </Link>
 
-                <Link href="/Terms">
+                <Link href="/Terms-and-Conditions">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Terms & <br />
                     Conditions

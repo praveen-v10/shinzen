@@ -37,7 +37,7 @@ export default function sitemap() {
         priority: 0.6,
       },
       {
-        url: 'https://zenth.in/Privacy-and-Policy',
+        url: 'https://zenth.in/Privacy-Policy',
         lastModified: new Date(),
         changeFrequency: 'yearly',
         priority: 0.4,
@@ -49,7 +49,7 @@ export default function sitemap() {
         priority: 0.4,
       },
       {
-        url: 'https://zenth.in/Terms-and-Condition',
+        url: 'https://zenth.in/Terms-and-Conditions',
         lastModified: new Date(),
         changeFrequency: 'yearly',
         priority: 0.4,

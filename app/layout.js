@@ -19,9 +19,7 @@ export const metadata = {
     "Service",
     "Solutions",
   ],
-  icons: {
-    icon: "https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20136%20(2).png?alt=media&token=a7d78059-53af-44d9-845f-738804651bec",
-  },
+
   metadataBase: new URL("https://www.zenth.in"),  
   openGraph: {
     title: "Zenth Tech | Innovative Digital Solutions for Growth",
@@ -82,6 +80,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        
         <Header />
         {children}
       </body>

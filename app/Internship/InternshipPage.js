@@ -119,7 +119,7 @@ function InternshipPage() {
           <div className="pt-4">
             <p className="font-T2 pt-2 font-light text-gray-500 pl-8 pr-8 text-center text-[1vw] tracking-wide">
               Apply now and take the first step toward building your future.
-              Application link open until (01 December 2024) .
+              Application link open until.
             </p>
 
             <div className="flex justify-center pt-2 gap-4 items-center">
@@ -255,7 +255,7 @@ function InternshipPage() {
           <div className="pt-4">
             <p className="font-T2 pt-2 font-light text-gray-500 pl-8 pr-8 text-center text-[1vw] tracking-wide">
               Apply now and take the first step toward building your future.
-              Application link open until (01 December 2024) .
+              Application link open until.
             </p>
 
             <div className="flex justify-center pt-2 gap-4 items-center">
@@ -391,7 +391,7 @@ function InternshipPage() {
           <div className="pt-4">
             <p className="font-T2 pt-2 font-light text-gray-500  text-center text-[3.4vw] tracking-wide">
               Apply now and take the first step toward building your future.
-              Application link open until (01 December 2024) .
+              Application link open until.
             </p>
 
             <div className="flex justify-center pt-6 gap-4 items-center">
@@ -528,7 +528,7 @@ function InternshipPage() {
           <div className="pt-4">
             <p className="font-T2 pt-2 font-light text-gray-500  text-center text-[3.4vw] tracking-wide">
               Apply now and take the first step toward building your future.
-              Application link open until (01 December 2024) .
+              Application link open until.
             </p>
 
             <div className="flex justify-center pt-6 gap-4 items-center">

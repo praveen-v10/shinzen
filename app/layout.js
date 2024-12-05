@@ -7,6 +7,11 @@ export const metadata = {
   description:
     "Zenth Tech offers innovative digital solutions, including custom software services, brand growth strategies, and policy-driven solutions to help your business thrive.",
   keywords: [
+    "zenthtech",
+    "zenth tech",
+    "Zenth",
+    "Zenthtech",
+    "Zenth tech",
     "Zenth Tech",
     "zenth",
     "Digital Solutions",
@@ -80,7 +85,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="icon" href="/logo.svg" sizes="any" />
       </head>
       <body>
         <Header />

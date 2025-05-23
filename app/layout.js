@@ -25,6 +25,10 @@ export const metadata = {
     "Solutions",
   ],
 
+  icons: {
+    icon: "/logo.svg", // This ensures the favicon is properly loaded
+  },
+
   metadataBase: new URL("https://www.zenth.in"),  
   openGraph: {
     title: "Zenth Tech | Innovative Digital Solutions for Growth",
@@ -77,14 +81,14 @@ export const metadata = {
     facebook: "https://www.facebook.com/profile.php?id=61563341759261",
     linkedIn:
       "https://www.linkedin.com/company/zenth-tech/about/?viewAsMember=true",
-    youtube: "https://www.youtube.com/@Zenthtech_Official",
+    youtube: "https://www.youtube.com/channel/UCU2k3KERZshYtQgdPTULE-A",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+          <head>
       <link rel="icon" href="/logo.svg" sizes="any" />
       </head>
       <body>

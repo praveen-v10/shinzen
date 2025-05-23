@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Internships at Zenth Tech | Shinever Infotech Pvt Ltd",
     description: "Join Zenth Tech's internship program and get real-world experience in the IT industry.",
-    url: "https://www.zenth.in/Internship",
+    url: "https://www.zenth.in/internship",
   },
 };
 

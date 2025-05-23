@@ -14,19 +14,19 @@ function Nav() {
     },
     {
       name: "About",
-      href: "/About",
+      href: "/about",
     },
     {
       name: "Service",
-      href: "/Service",
+      href: "/service",
     },
     {
       name: "Internship",
-      href: "/Internship",
+      href: "/internship",
     },
     {
       name: "Career",
-      href: "/Career",
+      href: "/career",
     },
   ];
 

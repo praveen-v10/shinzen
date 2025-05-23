@@ -52,7 +52,15 @@ function ContactPage() {
 
             <div>
               <div className="flex justify-evenly pt-[20vh]">
-                <div className="h-[200px] w-[25%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center ">
+                <div
+                  onClick={() =>
+                    window.open(
+                      "https://mail.google.com/mail/?view=cm&to=info@zenth.in&su=Enquiry Regarding Opportunities at Zenth Tech",
+                      "_blank"
+                    )
+                  }
+                  className="h-[200px] w-[25%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center "
+                >
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20e1.png?alt=media&token=18cd72a2-1210-40ec-8039-09c006a24eb2"
                     alt="Contact Sales"
@@ -86,7 +94,7 @@ function ContactPage() {
                     Support
                   </h2>
                   <p className="font-T2 pt-2 font-medium text-gray-600 text-[1.2vw]">
-                    support@zenth.in
+                    +91 9488 219 213
                   </p>
                 </div>
 
@@ -129,6 +137,9 @@ function ContactPage() {
               className="select-none cursor-pointer"
               onContextMenu={(e) => e.preventDefault()}
               draggable="false"
+              onClick={() => {
+                window.open("https://wa.me/919488219213?text=Hi Zenth Tech, I'm interested in exploring opportunities with your team – whether it's about your services, a collaboration, or career and internship options. Please let me know the next steps.", "_blank");
+              }}
             />
           </div>
         </div>
@@ -219,7 +230,15 @@ function ContactPage() {
 
             <div>
               <div className="flex justify-evenly pt-[20vh]">
-                <div className="h-[200px] w-[25%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center ">
+                <div
+                  onClick={() =>
+                    window.open(
+                      "https://mail.google.com/mail/?view=cm&to=info@zenth.in&su=Enquiry Regarding Opportunities at Zenth Tech",
+                      "_blank"
+                    )
+                  }
+                  className="h-[200px] w-[25%] cursor-pointer border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center "
+                >
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20e1.png?alt=media&token=18cd72a2-1210-40ec-8039-09c006a24eb2"
                     alt="Contact Sales"
@@ -253,7 +272,7 @@ function ContactPage() {
                     Support
                   </h2>
                   <p className="font-T2 pt-2 font-medium text-gray-600 text-[1.2vw]">
-                    support@zenth.in
+                    +91 9488 219 213
                   </p>
                 </div>
 
@@ -296,6 +315,9 @@ function ContactPage() {
               className="select-none cursor-pointer"
               onContextMenu={(e) => e.preventDefault()}
               draggable="false"
+              onClick={() => {
+                window.open("https://wa.me/919488219213?text=Hi Zenth Tech, I'm interested in exploring opportunities with your team – whether it's about your services, a collaboration, or career and internship options. Please let me know the next steps.", "_blank");
+              }}
             />
           </div>
         </div>
@@ -386,7 +408,12 @@ function ContactPage() {
 
             <div>
               <div className="flex flex-col justify-center items-center pt-[10vh] space-y-10">
-                <div className="h-[200px] w-[70%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center ">
+                <div
+                  onClick={() => {
+                    window.location.href = "mailto:info@zenth.in?subject=Enquiry Regarding Opportunities at Zenth Tech";
+                  }}
+                  className="h-[200px] w-[70%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center "
+                >
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20e1.png?alt=media&token=18cd72a2-1210-40ec-8039-09c006a24eb2"
                     alt="Contact Sales"
@@ -420,7 +447,7 @@ function ContactPage() {
                     Support
                   </h2>
                   <p className="font-T2 pt-2 font-medium text-gray-600 text-[3.8vw]">
-                    support@zenth.in
+                    +91 9488 219 213
                   </p>
                 </div>
 
@@ -463,6 +490,9 @@ function ContactPage() {
               className="select-none "
               onContextMenu={(e) => e.preventDefault()}
               draggable="false"
+              onClick={() => {
+                window.open("https://wa.me/919488219213?text=Hi Zenth Tech, I'm interested in exploring opportunities with your team – whether it's about your services, a collaboration, or career and internship options. Please let me know the next steps.", "_blank");
+              }}
             />
           </div>
         </div>
@@ -554,7 +584,12 @@ function ContactPage() {
 
             <div>
               <div className="flex flex-col justify-center items-center pt-[10vh] space-y-10">
-                <div className="h-[200px] w-[70%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center ">
+                <div
+                  onClick={() => {
+                    window.location.href = "mailto:info@zenth.in?subject=Enquiry Regarding Opportunities at Zenth Tech";
+                  }}
+                  className="h-[200px] w-[70%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center "
+                >
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20e1.png?alt=media&token=18cd72a2-1210-40ec-8039-09c006a24eb2"
                     alt="Contact Sales"
@@ -588,7 +623,7 @@ function ContactPage() {
                     Support
                   </h2>
                   <p className="font-T2 pt-2 font-medium text-gray-600 text-[3.8vw]">
-                    support@zenth.in
+                    +91 9488 219 213
                   </p>
                 </div>
 
@@ -631,6 +666,9 @@ function ContactPage() {
               className="select-none "
               onContextMenu={(e) => e.preventDefault()}
               draggable="false"
+              onClick={() => {
+                window.open("https://wa.me/919488219213?text=Hi Zenth Tech, I'm interested in exploring opportunities with your team – whether it's about your services, a collaboration, or career and internship options. Please let me know the next steps.", "_blank");
+              }}
             />
           </div>
         </div>

@@ -57,7 +57,7 @@ function AboutPage() {
                       to grow, thrive, and stand out in a competitive landscape.
                     </p>
     
-                    <Link href='/Contact'>
+                    <Link href='/contact'>
                     <button className="bg-[#008080] font-T3 hover:bg-[#ffffff] text-white font-semibold hover:text-black py-2 px-4 mt-6 hover:border hover:border-black  rounded">
                       Contact Us
                     </button>
@@ -358,7 +358,7 @@ function AboutPage() {
                       innovative approach unlocks new opportunities for businesses
                       to grow, thrive, and stand out in a competitive landscape.
                     </p>
-                    <Link href='/Contact'>
+                    <Link href='/contact'>
                     <button className="bg-[#008080] font-T3 hover:bg-[#ffffff] text-white font-semibold hover:text-black py-2 px-4 mt-6 hover:border hover:border-black  rounded">
                       Contact Us
                     </button>
@@ -665,7 +665,7 @@ function AboutPage() {
                     approach unlocks new opportunities for businesses to grow,
                     thrive, and stand out in a competitive landscape.
                   </p>
-                  <Link href='/Contact'>
+                  <Link href='/contact'>
                   <button className="bg-[#008080]  text-center font-T3  text-white font-semibold  py-2 px-4 mt-6   rounded">
                     Contact Us
                   </button>
@@ -956,7 +956,7 @@ function AboutPage() {
                   <p className="font-T2 pl-2 pr-2 font-normal text-center text-gray-600 text-[3.8vw] pt-4 tracking-normal ">
                   We create smart solutions that help businesses grow and stand out.
                   </p>
-                  <Link href='/Contact'>
+                  <Link href='/contact'>
                   <button className="bg-[#008080]  text-center font-T3  text-white font-semibold  py-2 px-4 mt-6   rounded">
                     Contact Us
                   </button>

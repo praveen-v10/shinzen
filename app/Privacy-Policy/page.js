@@ -105,7 +105,7 @@ function page() {
       <section className="mb-6">
         <h2 className="text-xl font-T1 text-gray-800 font-semibold mb-2">11. Contact Information</h2>
         <p className="text-gray-600 font-T2">
-          For any questions or concerns regarding this Privacy Policy, please contact us at <Link href="mailto:privacy@zenth.in" className="text-blue-500">privacy@zenth.in</Link>.
+          For any questions or concerns regarding this Privacy Policy, please contact us at <Link href="mailto:info@zenth.in" className="text-blue-500">info@zenth.in</Link>.
         </p>
       </section>
     </div>

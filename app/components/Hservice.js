@@ -43,7 +43,7 @@ function Hservice() {
                 efficiency and fostering growth.
               </p>
 
-              <Link href="/Service#software">
+              <Link href="/service#software">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -70,7 +70,7 @@ function Hservice() {
                 brand&apos;s online presence effectively.
               </p>
 
-              <Link href="/Service#web">
+              <Link href="/service#web">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -96,7 +96,7 @@ function Hservice() {
                 Develop intuitive mobile apps that engage your audience on iOS
                 and Android platforms seamlessly.
               </p>
-              <Link href="/Service#app">
+              <Link href="/service#app">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -124,7 +124,7 @@ function Hservice() {
                 Boost your brand with targeted digital marketing strategies,
                 including SEO and social media campaigns.
               </p>
-              <Link href="/Service#marketing">
+              <Link href="/service#marketing">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -150,7 +150,7 @@ function Hservice() {
                 Design visually appealing, user-friendly interfaces that improve
                 the experience and effectiveness of your products.
               </p>
-              <Link href="/Service#ui/ux">
+              <Link href="/service#ui/ux">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -176,7 +176,7 @@ function Hservice() {
                 Capture your brand&apos;s essence with professional photography
                 and videography for events and promotions.
               </p>
-              <Link href="/Service#visual">
+              <Link href="/service#visual">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -223,7 +223,7 @@ function Hservice() {
                 We create software solutions tailored to your business, ensuring
                 efficiency and fostering growth.
               </p>
-              <Link href="/Service#lapsoftware">
+              <Link href="/service#lapsoftware">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white  py-2 px-4 text-[1vw] mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -249,7 +249,7 @@ function Hservice() {
                 We design responsive, user-friendly websites that enhance your
                 brand&apos;s online presence effectively.
               </p>
-              <Link href="/Service#lapweb">
+              <Link href="/service#lapweb">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white text-[1vw] py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -275,7 +275,7 @@ function Hservice() {
                 Develop intuitive mobile apps that engage your audience on iOS
                 and Android platforms seamlessly.
               </p>
-              <Link href="/Service#lapapp">
+              <Link href="/service#lapapp">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white text-[1vw] py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -303,7 +303,7 @@ function Hservice() {
                 Boost your brand with targeted digital marketing strategies,
                 including SEO and social media campaigns.
               </p>
-              <Link href="/Service#lapmarketing">
+              <Link href="/service#lapmarketing">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -329,7 +329,7 @@ function Hservice() {
                 Design visually appealing, user-friendly interfaces that improve
                 the experience and effectiveness of your products.
               </p>
-              <Link href="/Service#lapui/ux">
+              <Link href="/service#lapui/ux">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[1vw] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -355,7 +355,7 @@ function Hservice() {
                 Capture your brand&apos;s essence with professional photography
                 and videography for events and promotions.
               </p>
-              <Link href="/Service#lapvisual">
+              <Link href="/service#lapvisual">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[1vw] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -403,7 +403,7 @@ function Hservice() {
                 efficiency and fostering growth.
               </p>
 
-              <Link href="/Service#tabsoftware">
+              <Link href="/service#tabsoftware">
                 <button className="bg-transparent font-T3 text-[3.5vw] hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -429,7 +429,7 @@ function Hservice() {
                 We design responsive, user-friendly websites that enhance your
                 brand&apos;s online presence effectively.
               </p>
-              <Link href="/Service#tabweb">
+              <Link href="/service#tabweb">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white text-[3.5vw] py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -455,7 +455,7 @@ function Hservice() {
                 Develop intuitive mobile apps that engage your audience on iOS
                 and Android platforms seamlessly.
               </p>
-              <Link href="/Service#tabapp">
+              <Link href="/service#tabapp">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white text-[3.5vw] py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -482,7 +482,7 @@ function Hservice() {
                 including SEO and social media campaigns.
               </p>
 
-              <Link href="/Service#tabmarketing">
+              <Link href="/service#tabmarketing">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[3.5vw]  text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -508,7 +508,7 @@ function Hservice() {
                 Design visually appealing, user-friendly interfaces that improve
                 the experience and effectiveness of your products.
               </p>
-              <Link href="/Service#tabui/ux">
+              <Link href="/service#tabui/ux">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[3.5vw] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -534,7 +534,7 @@ function Hservice() {
                 Capture your brand&apos;s essence with professional photography
                 and videography for events and promotions.
               </p>
-              <Link href="/Service#tabvisual">
+              <Link href="/service#tabvisual">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[3.5vw] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -583,7 +583,7 @@ function Hservice() {
                 efficiency and fostering growth.
               </p>
 
-              <Link href="/Service#mobsoftware">
+              <Link href="/service#mobsoftware">
                 <button className="bg-transparent font-T3 text-[3.5vw] hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -609,7 +609,7 @@ function Hservice() {
                 We design responsive, user-friendly websites that enhance your
                 brand&apos;s online presence effectively.
               </p>
-              <Link href="/Service#mobweb">
+              <Link href="/service#mobweb">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white text-[3.5vw] py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -635,7 +635,7 @@ function Hservice() {
                 Develop intuitive mobile apps that engage your audience on iOS
                 and Android platforms seamlessly.
               </p>
-              <Link href="/Service#mobapp">
+              <Link href="/service#mobapp">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-gray-500 font-semibold hover:text-white text-[3.5vw] py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -662,7 +662,7 @@ function Hservice() {
                 including SEO and social media campaigns.
               </p>
 
-              <Link href="/Service#mobmarketing">
+              <Link href="/service#mobmarketing">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[3.5vw]  text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -688,7 +688,7 @@ function Hservice() {
                 Design visually appealing, user-friendly interfaces that improve
                 the experience and effectiveness of your products.
               </p>
-              <Link href="/Service#mobui/ux">
+              <Link href="/service#mobui/ux">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[3.5vw] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>
@@ -714,7 +714,7 @@ function Hservice() {
                 Capture your brand&apos;s essence with professional photography
                 and videography for events and promotions.
               </p>
-              <Link href="/Service#mobvisual">
+              <Link href="/service#mobvisual">
                 <button className="bg-transparent font-T3 hover:bg-[#008080] text-[3.5vw] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Know More
                 </button>

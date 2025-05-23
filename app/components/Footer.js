@@ -38,22 +38,22 @@ function Footer() {
                     </p>
                   </Link>
 
-                  <Link href="/About">
+                  <Link href="/about">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       About
                     </p>
                   </Link>
-                  <Link href="/Service">
+                  <Link href="/service">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Service
                     </p>
                   </Link>
-                  <Link href="/Internship">
+                  <Link href="/internship">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Internship
                     </p>
                   </Link>
-                  <Link href="/Career">
+                  <Link href="/career">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Career
                     </p>
@@ -64,34 +64,34 @@ function Footer() {
                   <h1 className="text-[1.3vw] text-white font-T1 font-semibold">
                     Service
                   </h1>
-                  <Link href="/Service#software">
+                  <Link href="/service#software">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-4 hover:underline cursor-pointer">
                       Software
                     </p>
                   </Link>
 
-                  <Link href="/Service#web">
+                  <Link href="/service#web">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Web solutions
                     </p>
                   </Link>
-                  <Link href="/Service#app">
+                  <Link href="/service#app">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Mobile App
                     </p>
                   </Link>
 
-                  <Link href="/Service#marketing">
+                  <Link href="/service#marketing">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Marketing
                     </p>
                   </Link>
-                  <Link href="/Service#ui/ux">
+                  <Link href="/service#ui/ux">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       UI & UX
                     </p>
                   </Link>
-                  <Link href="/Service#visual">
+                  <Link href="/service#visual">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Visual Arts
                     </p>
@@ -102,23 +102,23 @@ function Footer() {
                   <h1 className="text-[1.3vw] text-white font-T1 font-semibold">
                     Support
                   </h1>
-                  <Link href="/Contact">
+                  <Link href="/contact">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-4 hover:underline cursor-pointer">
                       Contact
                     </p>
                   </Link>
-                  <Link href="/Privacy-Policy">
+                  <Link href="/privacy-policy">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Privacy Policy
                     </p>
                   </Link>
 
-                  <Link href="/Terms-and-Conditions">
+                  <Link href="/terms-and-conditions">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Terms & Conditions
                     </p>
                   </Link>
-                  <Link href="/Refund-Policy">
+                  <Link href="/refund-policy">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Refund Policy
                     </p>
@@ -165,7 +165,7 @@ function Footer() {
                       />
                     </Link>
                     <Link
-                      href="https://www.youtube.com/@Zenthtech_Official"
+                      href="https://www.youtube.com/channel/UCU2k3KERZshYtQgdPTULE-A"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -221,7 +221,7 @@ function Footer() {
 
             <div>
               <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-4 text-center">
-                Copyright 2024 ©. All right reserved by Shinever Infotech Pvt
+                Copyright 2025 ©. All right reserved by Shinever Infotech Pvt
                 Ltd
               </p>
             </div>
@@ -262,28 +262,28 @@ function Footer() {
                     </p>
                   </Link>
 
-                  <Link href="/About">
+                  <Link href="/about">
                     
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       About
                     </p>
                   </Link>
 
-                  <Link href="/Service">
+                  <Link href="/service">
                     
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Service
                     </p>
                   </Link>
 
-                  <Link href="/Internship">
+                  <Link href="/internship">
                     
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Internship
                     </p>
                   </Link>
 
-                  <Link href="/Career">
+                  <Link href="/career">
                     
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Career
@@ -296,33 +296,33 @@ function Footer() {
                     Services
                   </h1>
 
-                  <Link href="/Service#lapsoftware">
+                  <Link href="/service#lapsoftware">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-4 hover:underline cursor-pointer">
                       Software
                     </p>
                   </Link>
 
-                  <Link href="/Service#lapweb">
+                  <Link href="/service#lapweb">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Web Solution
                     </p>
                   </Link>
-                  <Link href="/Service#lapapp">
+                  <Link href="/service#lapapp">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Mobile Apps
                     </p>
                   </Link>
-                  <Link href="/Service#lapui/ux">
+                  <Link href="/service#lapui/ux">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       UI & UX
                     </p>
                   </Link>
-                  <Link href="/Service#lapmarketing">
+                  <Link href="/service#lapmarketing">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Marketing
                     </p>
                   </Link>
-                  <Link href="/Service#lapvisual">
+                  <Link href="/service#lapvisual">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Visual Arts
                     </p>
@@ -333,22 +333,22 @@ function Footer() {
                   <h1 className="text-[1.3vw] text-white font-T1 font-semibold">
                     Support
                   </h1>
-                  <Link href="/Contact">
+                  <Link href="/contact">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-4 hover:underline cursor-pointer">
                       Contact
                     </p>
                   </Link>
-                  <Link href="/Privacy-Policy">
+                  <Link href="/privacy-policy">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Privacy Policy
                     </p>
                   </Link>
-                  <Link href="/Terms-and-Conditions">
+                  <Link href="/terms-and-conditions">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Terms & Conditions
                     </p>
                   </Link>
-                  <Link href="/Refund-Policy">
+                  <Link href="/refund-policy">
                     <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                       Refund Policy
                     </p>
@@ -398,7 +398,7 @@ function Footer() {
                       />
                     </Link>
                     <Link
-                      href="https://www.youtube.com/@Zenthtech_Official"
+                      href="https://www.youtube.com/channel/UCU2k3KERZshYtQgdPTULE-A"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -455,7 +455,7 @@ function Footer() {
 
             <div>
               <p className="text-[1vw] text-[#D7D7D7] font-T2 font-medium pt-4 text-center">
-                Copyright 2024 ©. All right reserved by Shinever Infotech Pvt
+                Copyright 2025 ©. All right reserved by Shinever Infotech Pvt
                 Ltd
               </p>
             </div>
@@ -508,22 +508,22 @@ function Footer() {
                   </p>
                 </Link>
 
-                <Link href="/About">
+                <Link href="/about">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     About
                   </p>
                 </Link>
-                <Link href="/Service">
+                <Link href="/service">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Service
                   </p>
                 </Link>
-                <Link href="/Internship">
+                <Link href="/internship">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Internship
                   </p>
                 </Link>
-                <Link href="/Career">
+                <Link href="/career">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Career
                   </p>
@@ -535,41 +535,41 @@ function Footer() {
                   Services
                 </h1>
 
-                <Link href="/Service#tabsoftware">
+                <Link href="/service#tabsoftware">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-4 hover:underline cursor-pointer">
                     Software
                   </p>
                 </Link>
 
-                <Link href="/Service#tabweb">
+                <Link href="/service#tabweb">
                   
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Web
                   </p>
                 </Link>
 
-                <Link href="/Service#tabapp">
+                <Link href="/service#tabapp">
                   
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     App
                   </p>
                 </Link>
 
-                <Link href="/Service#tabui/ux">
+                <Link href="/service#tabui/ux">
                   
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     UI & UX
                   </p>
                 </Link>
 
-                <Link href="/Service#tabmarketing">
+                <Link href="/service#tabmarketing">
                   
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Marketing
                   </p>
                 </Link>
 
-                <Link href="/Service#tabvisual">
+                <Link href="/service#tabvisual">
                   
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Visual Arts
@@ -582,23 +582,23 @@ function Footer() {
                   Support
                 </h1>
 
-                <Link href="/Contact">
+                <Link href="/contact">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-4 hover:underline cursor-pointer">
                     Contact
                   </p>
                 </Link>
-                <Link href="/Privacy-Policy">
+                <Link href="/privacy-policy">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Privacy Policy
                   </p>
                 </Link>
-                <Link href="/Refund-Policy">
+                <Link href="/refund-policy">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Refund Policy
                   </p>
                 </Link>
 
-                <Link href="/Terms-and-Conditions">
+                <Link href="/terms-and-conditions">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Terms & <br />
                     Conditions
@@ -629,7 +629,7 @@ function Footer() {
                   />
                 </Link>
                 <Link
-                  href="https://www.youtube.com/@Zenthtech_Official"
+                  href="https://www.youtube.com/channel/UCU2k3KERZshYtQgdPTULE-A"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -682,7 +682,7 @@ function Footer() {
 
             <div>
               <p className="text-[3vw] text-[#D7D7D7] font-T2 font-medium pt-4 text-center">
-                Copyright 2024 ©. All right reserved <br /> by Shinever Infotech
+                Copyright 2025 ©. All right reserved <br /> by Shinever Infotech
                 Pvt Ltd
               </p>
             </div>
@@ -736,22 +736,22 @@ function Footer() {
                   </p>
                 </Link>
 
-                <Link href="/About">
+                <Link href="/about">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     About
                   </p>
                 </Link>
-                <Link href="/Service">
+                <Link href="/service">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Service
                   </p>
                 </Link>
-                <Link href="/Internship">
+                <Link href="/internship">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Internship
                   </p>
                 </Link>
-                <Link href="/Career">
+                <Link href="/career">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Career
                   </p>
@@ -763,41 +763,41 @@ function Footer() {
                   Services
                 </h1>
 
-                <Link href="/Service#mobsoftware">
+                <Link href="/service#mobsoftware">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-4 hover:underline cursor-pointer">
                     Software
                   </p>
                 </Link>
 
-                <Link href="/Service#mobweb">
+                <Link href="/service#mobweb">
                   
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Web
                   </p>
                 </Link>
 
-                <Link href="/Service#mobapp">
+                <Link href="/service#mobapp">
                   
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     App
                   </p>
                 </Link>
 
-                <Link href="/Service#mobui/ux">
+                <Link href="/service#mobui/ux">
                   
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     UI & UX
                   </p>
                 </Link>
 
-                <Link href="/Service#mobmarketing">
+                <Link href="/service#mobmarketing">
                   
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Marketing
                   </p>
                 </Link>
 
-                <Link href="/Service#mobvisual">
+                <Link href="/service#mobvisual">
                   
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Visual Arts
@@ -810,23 +810,23 @@ function Footer() {
                   Support
                 </h1>
 
-                <Link href="/Contact">
+                <Link href="/contact">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-4 hover:underline cursor-pointer">
                     Contact
                   </p>
                 </Link>
-                <Link href="/Privacy-Policy">
+                <Link href="/privacy-policy">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Privacy Policy
                   </p>
                 </Link>
-                <Link href="/Refund-Policy">
+                <Link href="/refund-policy">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Refund Policy
                   </p>
                 </Link>
 
-                <Link href="/Terms-and-Conditions">
+                <Link href="/terms-and-conditions">
                   <p className="text-[3.7vw] text-[#D7D7D7] font-T2 font-medium pt-1 hover:underline cursor-pointer">
                     Terms & <br />
                     Conditions
@@ -857,7 +857,7 @@ function Footer() {
                   />
                 </Link>
                 <Link
-                  href="https://www.youtube.com/@Zenthtech_Official"
+                  href="https://www.youtube.com/channel/UCU2k3KERZshYtQgdPTULE-A"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -910,7 +910,7 @@ function Footer() {
 
             <div>
               <p className="text-[3vw] text-[#D7D7D7] font-T2 font-medium pt-4 text-center">
-                Copyright 2024 ©. All right reserved <br /> by Shinever Infotech
+                Copyright 2025 ©. All right reserved <br /> by Shinever Infotech
                 Pvt Ltd
               </p>
             </div>

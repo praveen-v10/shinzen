@@ -37,7 +37,7 @@ function Headerr() {
   const router = useRouter();
 
   const handleClick = () => {
-    router.push("/Contact"); // Adjust the path if your contact page is at a different route
+    router.push("/contact"); // Adjust the path if your contact page is at a different route
   };
 
   useEffect(() => {

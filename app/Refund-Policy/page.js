@@ -41,7 +41,7 @@ function page() {
       <section className="mb-6">
         <h2 className="text-xl font-T1 text-gray-800 font-semibold mb-2">3. Process for Requesting a Refund</h2>
         <p className="text-gray-600 font-T2">
-          To request a refund, please contact us at <Link href="mailto:refunds@zenth.in" className="text-blue-500">refunds@zenth.in</Link> with the following information:
+          To request a refund, please contact us at <Link href="mailto:info@zenth.in" className="text-blue-500">info@zenth.in</Link> with the following information:
         </p>
         <ul className="list-disc ml-6 text-gray-600 font-T2">
           <li>Your name and contact details.</li>
@@ -65,7 +65,7 @@ function page() {
       <section className="mb-6">
         <h2 className="text-xl font-T1 text-gray-800 font-semibold mb-2">5. Contact Information</h2>
         <p className="text-gray-600 font-T2">
-          For further inquiries regarding our refund policy, please email us at <Link href="mailto:refunds@zenth.in" className="text-blue-500">refunds@zenth.in</Link>.
+          For further inquiries regarding our refund policy, please email us at <Link href="mailto:info@zenth.in" className="text-blue-500">info@zenth.in</Link>.
         </p>
       </section>
     </div>

@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: "Service of Zenth Tech | Shinever Infotech Pvt Ltd",
     description: "Zenth Tech provides tailored IT solutions, driven by quality and client satisfaction.",
-    url: "https://www.zenth.in/Service",
+    url: "https://www.zenth.in/service",
     images: [
       {
         url: "https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/Group%20136%20(2).png?alt=media&token=a7d78059-53af-44d9-845f-738804651bec",

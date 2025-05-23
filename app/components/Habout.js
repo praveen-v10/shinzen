@@ -126,7 +126,7 @@ function Habout() {
               </div>
 
               <div className="pt-6">
-                <Link href='/About'>
+                <Link href='/about'>
               
                 <button className="bg-transparent hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Discover More
@@ -380,7 +380,7 @@ function Habout() {
               </div>
 
               <div className="pt-6">
-              <Link href='/About'>
+              <Link href='/about'>
                 <button className="bg-transparent hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                   Discover More
                 </button>
@@ -679,7 +679,7 @@ function Habout() {
                     </div>
                   </div>
                   <div className="">
-                  <Link href='/About'>
+                  <Link href='/about'>
                     <button className="bg-transparent hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                       Discover More
                     </button>
@@ -919,7 +919,7 @@ function Habout() {
                     </div>
                   </div>
                   <div className="">
-                  <Link href='/About'>
+                  <Link href='/about'>
                     <button className="bg-transparent hover:bg-[#008080] text-gray-500 font-semibold hover:text-white py-2 px-4 mt-4 border border-gray-500 hover:border-transparent rounded">
                       Discover More
                     </button>
